@@ -1,0 +1,1243 @@
+Archive member included to satisfy reference by file (symbol)
+
+obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+                              obj_iotdk_10/gnu_arcem9d/application/./main.o (hm1x_flush)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                              obj_iotdk_10/gnu_arcem9d/board/board.o (board_init)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                              obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o (gl_iotdk_ms_cnt)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o (io_pmod_config)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o (sysconf_reg_ptr)
+obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                              obj_iotdk_10/gnu_arcem9d/board/board.o (xprintf_setup)
+obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (xfunc_out)
+obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (timer_present)
+obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                              obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o (arc_cache_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                              obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o (exc_int_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                              obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o (exc_entry_cpu)
+obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (gnu_printf_setup)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                              obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o (uart_get_dev)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o (ss_uart_open)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                              obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o (io_uart_open)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+                              obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o (sprintf)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcpy-bs.o)
+                              obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o (strcpy)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strlen-bs-norm.o)
+                              obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o (strlen)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+                              obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o (strncmp)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o) (_svfprintf_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o) (_dtoa_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o) (_impure_ptr)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o) (_localeconv_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o) (_malloc_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o) (memchr)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memcpy-bs.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o) (memcpy)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o) (__malloc_lock)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o) (_Balloc)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o) (__ssprint_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o) (_calloc_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o) (_free_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o) (__global_locale)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o) (__ascii_mbtowc)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o) (memmove)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memset-bs.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o) (memset)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o) (_realloc_r)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o) (errno)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcmp.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o) (strcmp)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o) (__ascii_wctomb)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o) (_ctype_)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (__divdi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (__udivdi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o) (__umoddi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o) (__divdf3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o) (__make_fp)
+obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o) (_sbrk)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o (__errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+xfunc_in            0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+xfunc_out           0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+exc_nest_count      0x4               obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+REGION_ICCM      0x20000000         0x00040000
+REGION_DCCM      0x80000000         0x00020000
+REGION_EXT_ROM   0x00000000         0x00040000
+REGION_EXT_RAM   0x30000000         0x00020000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libm.a
+
+.init           0x20000000      0x214
+                0x20000000                . = (. + 0x0)
+                0x20000000                _f_init = .
+ *(.init_vector)
+ .init_vector   0x20000000        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ *(.init_bootstrap)
+ .init_bootstrap
+                0x20000004      0x210 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+                0x20000004                _arc_reset
+                0x20000004                _start
+                0x20000200                _exit_loop
+                0x20000200                _exit_halt
+                0x20000214                _e_init = .
+
+.vector         0x20000400      0x400
+                0x20000400                _f_vector = .
+ *(.vector)
+ .vector        0x20000400      0x400 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20000400                exc_entry_table
+                0x20000800                _e_vector = .
+
+.text           0x20000800     0xb7fc
+                0x20000800                _f_text = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x20000800        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .text.startup  0x20000800      0x38c obj_iotdk_10/gnu_arcem9d/application/./main.o
+                0x20000800                main
+ .text          0x20000b8c       0x38 obj_iotdk_10/gnu_arcem9d/board/board.o
+                0x20000b8c                board_main
+ .text          0x20000bc4       0xa0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x20000bc4                __do_global_ctors_aux
+                0x20000bf0                __do_global_dtors_aux
+                0x20000c24                __cxa_atexit
+                0x20000c28                __do_init_array_aux
+                0x20000c60                __cxa_pure_virtual
+ .text          0x20000c64        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .text          0x20000c64      0x558 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+                0x20000c64                hm1x_flush
+                0x20000cac                hm1x_init
+                0x20000cf4                hm1x_deinit
+                0x20000d04                hm1x_write
+                0x20000d30                hm1x_read
+                0x20000d84                hm1x_exec_command
+                0x20000e0c                hm1x_exec_cmd_chkresp
+                0x20000ed8                hm1x_set_param
+                0x20000f60                hm1x_get_param
+                0x20000fd4                hm1x_set_param_u8
+                0x20000ff0                hm1x_set_role
+                0x20001030                hm1x_set_mode
+                0x20001050                hm1x_set_type
+                0x20001070                hm1x_set_baud
+                0x2000115c                hm1x_test_command
+                0x20001170                hm1x_restart
+                0x200011a8                hm1x_renew
+ .text          0x200011bc       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                0x200011bc                board_init
+ .text          0x200011e8      0x228 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x200011e8                board_timer_update
+                0x20001264                iotdk_timer_init
+                0x2000129c                board_get_hwticks
+                0x200012d0                board_get_cur_us
+                0x20001324                board_delay_ms
+ .text          0x20001410      0x388 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                0x20001410                io_mikro_config
+                0x20001444                io_arduino_config
+                0x20001664                io_arduino_config_spi
+                0x20001698                io_arduino_config_uart
+                0x200016cc                io_arduino_config_i2c
+                0x20001700                io_pmod_config
+                0x20001784                io_mux_init
+ .text          0x20001798      0x4a8 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x20001798                pll_conf_reg
+                0x200017d8                pll_fout_config
+                0x20001860                ahb_clk_divisor
+                0x20001870                ahb_clk_enable
+                0x20001890                ahb_clk_disable
+                0x200018b4                apb_clk_divisor
+                0x200018c4                apb_clk_enable
+                0x200018e4                apb_clk_disable
+                0x20001908                sdio_clk_divisor
+                0x20001918                spi_master_clk_divisor
+                0x20001978                gpio8b_dbclk_div
+                0x20001a04                gpio4b_dbclk_div
+                0x20001a64                i2s_tx_clk_div
+                0x20001a74                i2s_rx_clk_div
+                0x20001a84                i2s_rx_clk_sel
+                0x20001a94                syscon_reset
+                0x20001aa8                is_poweron_rst
+                0x20001ac0                dvfs_clk_divisor
+                0x20001b3c                dvfs_vdd_config
+                0x20001bb8                dvfs_vwtime_config
+                0x20001bc8                pmc_pwwtime_config
+                0x20001bd8                uart3_clk_divisor
+                0x20001be8                reset_powerdown_vector
+                0x20001bf8                pwm_timer_pause
+                0x20001c28                eflash_clk_div
+ .text          0x20001c40      0x110 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                0x20001c40                console_putchar
+                0x20001c6c                console_getchar
+                0x20001ca0                console_putstr
+                0x20001cb4                console_getstr
+                0x20001cc8                xprintf_setup
+ .text          0x20001d50      0x704 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x20001d50                xputc
+                0x20001e1c                xputs
+                0x20001e38                xfputs
+                0x20001e68                xvprintf
+                0x200021b4                xprintf
+                0x200021dc                xsprintf
+                0x20002218                xfprintf
+                0x20002254                put_dump
+                0x20002324                xgets
+                0x20002338                xfgets
+                0x2000236c                xatoi
+ .text          0x20002454      0x1e8 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x20002454                timer_present
+                0x20002480                timer_start
+                0x200024f8                timer_stop
+                0x20002574                timer_current
+                0x200025b8                timer_int_clear
+                0x200025f4                timer_init
+ .text          0x2000263c      0x440 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                0x2000263c                icache_invalidate_mlines
+                0x20002698                icache_lock_mlines
+                0x20002708                icache_direct_write
+                0x20002734                icache_direct_read
+                0x20002760                icache_indirect_read
+                0x20002794                dcache_invalidate_mlines
+                0x200027f8                dcache_flush_mlines
+                0x2000285c                dcache_lock_mlines
+                0x200028d0                dcache_direct_write
+                0x200028fc                dcache_direct_read
+                0x20002928                dcache_indirect_read
+                0x2000295c                arc_cache_init
+ .text          0x20002a7c      0x7a0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20002ef8                exc_int_init
+                0x20002f64                exc_entry_install
+                0x20002fd8                exc_entry_get
+                0x20002ff0                exc_handler_install
+                0x2000300c                exc_handler_get
+                0x20003024                int_disable
+                0x2000304c                int_enable
+                0x20003074                int_enabled
+                0x20003094                int_ipm_get
+                0x200030a4                int_ipm_set
+                0x200030d0                int_pri_get
+                0x200030f4                int_pri_set
+                0x2000312c                int_secure_set
+                0x20003160                int_probe
+                0x20003180                int_sw_trigger
+                0x2000319c                int_level_config
+                0x200031c0                cpu_lock
+                0x200031c8                cpu_unlock
+                0x200031d0                cpu_lock_save
+                0x200031d8                cpu_unlock_restore
+                0x200031e0                int_handler_install
+                0x20003200                int_handler_get
+ .text          0x2000321c      0x2c8 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                0x2000321c                exc_entry_cpu
+                0x2000338c                exc_entry_int
+                0x20003430                exc_entry_firq
+ .text          0x200034e4        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+                0x200034e4                gnu_printf_setup
+ .text          0x200034e8      0x32c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                0x20003698                dfss_uart_all_install
+                0x200037c0                uart_get_dev
+ .text          0x20003814      0x4d4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x200038a8                ss_uart_open
+                0x20003980                ss_uart_close
+                0x200039b0                ss_uart_control
+                0x20003b40                ss_uart_write
+                0x20003be8                ss_uart_read
+                0x20003c94                ss_uart_tx_cb
+                0x20003cb4                ss_uart_rx_cb
+                0x20003cd4                ss_uart_err_cb
+ .text          0x20003ce8      0x738 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x2000405c                io_uart_open
+                0x20004124                io_uart_close
+                0x20004188                io_uart_read
+                0x200041e0                io_uart_write
+                0x20004260                io_uart_ioctl
+ .text          0x20004420       0x98 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+                0x20004420                _sprintf_r
+                0x20004468                sprintf
+ .text          0x200044b8       0x7c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcpy-bs.o)
+                0x200044b8                strcpy
+ .text          0x20004534       0x88 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strlen-bs-norm.o)
+                0x20004534                strlen
+ .text          0x200045bc       0xbc c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+                0x200045bc                strncmp
+ .text          0x20004678     0x17fc c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+                0x20004678                _svfprintf_r
+ .text          0x20005e74     0x12dc c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+                0x20005fec                _dtoa_r
+ .text          0x20007150        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+ .text          0x20007150       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+                0x20007150                __localeconv_l
+                0x20007158                _localeconv_r
+                0x20007170                localeconv
+ .text          0x20007188      0x6ec c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+                0x20007188                _malloc_r
+ .text          0x20007874       0xc8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+                0x20007874                memchr
+ .text          0x2000793c       0x80 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memcpy-bs.o)
+                0x2000793c                memcpy
+ .text          0x200079bc        0x8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+                0x200079bc                __malloc_lock
+                0x200079c0                __malloc_unlock
+ .text          0x200079c4      0xb5c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+                0x200079c4                _Balloc
+                0x20007a30                _Bfree
+                0x20007a44                __multadd
+                0x20007b08                __s2b
+                0x20007bd8                __hi0bits
+                0x20007c20                __lo0bits
+                0x20007ca4                __i2b
+                0x20007cbc                __multiply
+                0x20007e30                __pow5mult
+                0x20007efc                __lshift
+                0x20007ff8                __mcmp
+                0x2000803c                __mdiff
+                0x2000818c                __ulp
+                0x200081e0                __b2d
+                0x200082c4                __d2b
+                0x200083a4                __ratio
+                0x2000841c                _mprec_log10
+                0x20008460                __copybits
+                0x200084c8                __any_on
+ .text          0x20008520       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+                0x20008520                _sbrk_r
+ .text          0x20008550      0xd84 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+                0x20008550                __ssprint_r
+                0x2000868c                _svfiprintf_r
+ .text          0x200092d4       0x88 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+                0x200092d4                _calloc_r
+ .text          0x2000935c      0x39c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+                0x2000935c                _malloc_trim_r
+                0x20009428                _free_r
+ .text          0x200096f8       0x90 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+                0x200096f8                _setlocale_r
+                0x20009740                __locale_mb_cur_max
+                0x2000975c                __locale_ctype_ptr_l
+                0x20009764                __locale_ctype_ptr
+                0x2000977c                setlocale
+ .text          0x20009788       0x64 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+                0x20009788                _mbtowc_r
+                0x200097a4                __ascii_mbtowc
+ .text          0x200097ec      0x100 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+                0x200097ec                memmove
+ .text          0x200098ec       0x6c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memset-bs.o)
+                0x200098ec                memset
+                0x20009940                __strncpy_bzero
+ .text          0x20009958      0x470 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+                0x20009958                _realloc_r
+ .text          0x20009dc8       0xbc c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+                0x20009dc8                cleanup_glue
+                0x20009de8                _reclaim_reent
+ .text          0x20009e84       0x90 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcmp.o)
+                0x20009e84                strcmp
+ .text          0x20009f14       0x44 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+                0x20009f14                _wctomb_r
+                0x20009f30                __ascii_wctomb
+ .text          0x20009f58        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+ .text          0x20009f58        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .text.__divdi3
+                0x20009f58      0x3e0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+                0x20009f58                __divdi3
+ .text          0x2000a338        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .text.__udivdi3
+                0x2000a338      0x364 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+                0x2000a338                __udivdi3
+ .text          0x2000a69c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+ .text.__umoddi3
+                0x2000a69c      0x304 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+                0x2000a69c                __umoddi3
+ .text          0x2000a9a0        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .text._fpadd_parts
+                0x2000a9a0      0x2ec c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .text.__pack_d
+                0x2000ac8c      0x1bc c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000ac8c                __pack_d
+ .text.__unpack_d
+                0x2000ae48       0xb8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000ae48                __unpack_d
+ .text.__adddf3
+                0x2000af00       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000af00                __adddf3
+ .text.__subdf3
+                0x2000af30       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000af30                __subdf3
+ .text.__muldf3
+                0x2000af68      0x22c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000af68                __muldf3
+ .text.__divdf3
+                0x2000b194      0x164 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b194                __divdf3
+ .text.__fpcmp_parts_d
+                0x2000b2f8       0xc4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b2f8                __fpcmp_parts_d
+ .text.__cmpdf2
+                0x2000b3bc       0x2c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b3bc                __cmpdf2
+ .text.__eqdf2  0x2000b3e8       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b3e8                __eqdf2
+ .text.__nedf2  0x2000b428        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b428                __nedf2
+ .text.__gtdf2  0x2000b42c       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b42c                __gtdf2
+ .text.__gedf2  0x2000b46c        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b46c                __gedf2
+ .text.__ltdf2  0x2000b470        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b470                __ltdf2
+ .text.__ledf2  0x2000b474        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b474                __ledf2
+ .text.__unorddf2
+                0x2000b478       0x34 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b478                __unorddf2
+ .text.__floatsidf
+                0x2000b4ac       0x7c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b4ac                __floatsidf
+ .text.__floatunsidf
+                0x2000b528       0x64 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b528                __floatunsidf
+ .text.__fixdfsi
+                0x2000b58c       0x90 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b58c                __fixdfsi
+ .text.__fixunsdfsi
+                0x2000b61c       0x60 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b61c                __fixunsdfsi
+ .text.__negdf2
+                0x2000b67c       0x24 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b67c                __negdf2
+ .text.__make_dp
+                0x2000b6a0       0x1c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b6a0                __make_dp
+ .text.__truncdfsf2
+                0x2000b6bc       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000b6bc                __truncdfsf2
+ .text          0x2000b6f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .text._fpadd_parts
+                0x2000b6f4      0x170 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .text.__pack_f
+                0x2000b864      0x104 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000b864                __pack_f
+ .text.__unpack_f
+                0x2000b968       0x80 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000b968                __unpack_f
+ .text.__addsf3
+                0x2000b9e8       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000b9e8                __addsf3
+ .text.__subsf3
+                0x2000ba18       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000ba18                __subsf3
+ .text.__mulsf3
+                0x2000ba50      0x12c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000ba50                __mulsf3
+ .text.__divsf3
+                0x2000bb7c       0xec c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bb7c                __divsf3
+ .text.__fpcmp_parts_f
+                0x2000bc68       0xa4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bc68                __fpcmp_parts_f
+ .text.__cmpsf2
+                0x2000bd0c       0x2c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bd0c                __cmpsf2
+ .text.__eqsf2  0x2000bd38       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bd38                __eqsf2
+ .text.__nesf2  0x2000bd78        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bd78                __nesf2
+ .text.__gtsf2  0x2000bd7c       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bd7c                __gtsf2
+ .text.__gesf2  0x2000bdbc        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bdbc                __gesf2
+ .text.__ltsf2  0x2000bdc0        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bdc0                __ltsf2
+ .text.__lesf2  0x2000bdc4        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bdc4                __lesf2
+ .text.__unordsf2
+                0x2000bdc8       0x34 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bdc8                __unordsf2
+ .text.__floatsisf
+                0x2000bdfc       0x68 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bdfc                __floatsisf
+ .text.__floatunsisf
+                0x2000be64       0x7c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000be64                __floatunsisf
+ .text.__fixsfsi
+                0x2000bee0       0x70 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bee0                __fixsfsi
+ .text.__negsf2
+                0x2000bf50       0x24 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bf50                __negsf2
+ .text.__make_fp
+                0x2000bf74       0x18 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bf74                __make_fp
+ .text.__extendsfdf2
+                0x2000bf8c       0x2c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000bf8c                __extendsfdf2
+ .text          0x2000bfb8       0x40 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+                0x2000bfb8                _sbrk
+ .text          0x2000bff8        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
+                0x2000bff8                __errno
+                0x2000bffc                _e_text = .
+
+.rodata         0x2000bffc     0x18e0
+                0x2000bffc                _f_rodata = .
+                0x2000bffc                . = ALIGN (0x4)
+                0x2000bffc                __CTOR_LIST__ = .
+                0x2000bffc        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.ctors*))
+                0x2000c000        0x4 LONG 0x0
+                0x2000c004                __CTOR_END__ = .
+                0x2000c004                . = ALIGN (0x4)
+                0x2000c004                __init_array_start = .
+ *(SORT_BY_NAME(.init_array*))
+                0x2000c004                __init_array_end = .
+                0x2000c004                . = ALIGN (0x4)
+                0x2000c004                __DTOR_LIST__ = .
+                0x2000c004        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.dtors*))
+                0x2000c008        0x4 LONG 0x0
+                0x2000c00c                __DTOR_END__ = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x2000c00c      0x475 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                0x47c (size before relaxing)
+ *fill*         0x2000c481        0x3 
+ .rodata.str1.4
+                0x2000c484        0x5 obj_iotdk_10/gnu_arcem9d/board/board.o
+                                  0x8 (size before relaxing)
+ *fill*         0x2000c489        0x3 
+ .rodata.str1.4
+                0x2000c48c       0x61 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+                                 0x84 (size before relaxing)
+ *fill*         0x2000c4ed        0x3 
+ .rodata        0x2000c4f0       0xa0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .rodata        0x2000c590       0x58 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .rodata.str1.4
+                0x2000c5e8      0x320 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .rodata        0x2000c908       0x5c obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .rodata.str1.4
+                0x2000c964       0x1f obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                                 0x20 (size before relaxing)
+ *fill*         0x2000c983        0x1 
+ .rodata.str1.4
+                0x2000c984      0x691 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                0x698 (size before relaxing)
+ *fill*         0x2000d015        0x3 
+ .rodata        0x2000d018      0x1e8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .rodata        0x2000d200       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .rodata        0x2000d210       0x48 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .rodata        0x2000d258       0xb8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .rodata.str1.4
+                0x2000d310       0x42 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x2000d352        0x2 
+ .rodata        0x2000d354      0x184 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x2000d4d8        0xd c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ *fill*         0x2000d4e5        0x3 
+ .rodata        0x2000d4e8       0x10 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+ .rodata        0x2000d4f8        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+                0x2000d4f8                _global_impure_ptr
+ .rodata        0x2000d4fc      0x124 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+                0x2000d508                __mprec_tinytens
+                0x2000d530                __mprec_bigtens
+                0x2000d558                __mprec_tens
+ .rodata.str1.4
+                0x2000d620       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .rodata        0x2000d620      0x184 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x2000d7a4       0x10 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x2000d7b4      0x104 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+                0x2000d7b4                _ctype_
+ .rodata.__thenan_df
+                0x2000d8b8       0x14 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+                0x2000d8b8                __thenan_df
+ .rodata.__thenan_sf
+                0x2000d8cc       0x10 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+                0x2000d8cc                __thenan_sf
+                0x2000d8dc                _e_rodata = .
+
+.data           0x80000000      0xdac load address 0x2000d8dc
+                0x80000000                _f_data = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x80000000       0x18 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                0x80000000                baudrate_list
+ .data          0x80000018        0x8 obj_iotdk_10/gnu_arcem9d/board/board.o
+                0x80000018                s_main_args
+ .data          0x80000020        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .data          0x80000020        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .data          0x80000020        0x0 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .data          0x80000020        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .data          0x80000020        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .data          0x80000020        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .data          0x80000020        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x80000020                sysconf_reg_ptr
+ .data          0x80000024        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .data          0x80000024        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .data          0x80000024        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .data          0x80000024        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .data          0x80000024      0x1bc obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x80000024                exc_int_handler_table
+ .data          0x800001e0        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .data          0x800001e0        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .data          0x800001e0       0x70 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .data          0x80000250        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .data          0x80000250      0x1a4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .data          0x800003f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+ .data          0x800003f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcpy-bs.o)
+ .data          0x800003f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strlen-bs-norm.o)
+ .data          0x800003f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+ .data          0x800003f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+ .data          0x800003f4        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+ .data          0x800003f4      0x424 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+ .data          0x80000818        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+ .data          0x80000818      0x408 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+                0x80000818                __malloc_av_
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memcpy-bs.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+ .data          0x80000c20        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+ .data          0x80000c20      0x16c c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+                0x80000c20                __global_locale
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memset-bs.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcmp.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .data          0x80000d8c        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .data          0x80000d8c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
+                0x80000d8c                _f_sdata = .
+                0x80000d8c                __SDATA_BEGIN__ = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x80000d8c        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+                0x80000d8c                _impure_ptr
+ .sdata         0x80000d90        0x8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+                0x80000d90                __malloc_sbrk_base
+                0x80000d94                __malloc_trim_threshold
+                [!provide]                PROVIDE (__sbss_start = .)
+                [!provide]                PROVIDE (___sbss_start = .)
+                0x80000d98                _f_sbss = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x80000d98        0xc c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+                0x80000d98                __malloc_max_total_mem
+                0x80000d9c                __malloc_max_sbrked_mem
+                0x80000da0                __malloc_top_pad
+ .sbss          0x80000da4        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+                0x80000da4                _PathLocale
+ .sbss          0x80000da8        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+                0x80000da8                errno
+ *(.scommon)
+                0x80000dac                _e_sbss = .
+                [!provide]                PROVIDE (__sbss_end = .)
+                [!provide]                PROVIDE (___sbss_end = .)
+                0x80000dac                _e_sdata = .
+                0x80000dac                _e_data = .
+
+.bss            0x80000db0      0x1f0 load address 0x2000e688
+                0x80000db0                _f_bss = .
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x80000db0        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .bss           0x80000db0        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .bss           0x80000db0        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x80000db0                __dso_handle
+ .bss           0x80000db4        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .bss           0x80000db4        0x0 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .bss           0x80000db4        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .bss           0x80000db4       0x14 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x80000dbc                gl_iotdk_ms_cnt
+                0x80000dc0                gl_iotdk_sys_hz_cnt
+ .bss           0x80000dc8        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .bss           0x80000dc8        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .bss           0x80000dc8        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .bss           0x80000dd0        0x4 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .bss           0x80000dd4        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .bss           0x80000dd4       0x10 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .bss           0x80000de4        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .bss           0x80000de4        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .bss           0x80000de4        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .bss           0x80000de4      0x174 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss           0x80000f58        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .bss           0x80000f58       0x10 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcpy-bs.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strlen-bs-norm.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+ .bss           0x80000f68        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+ .bss           0x80000f68       0x28 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+                0x80000f68                __malloc_current_mallinfo
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memcpy-bs.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memset-bs.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcmp.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .bss           0x80000f90        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .bss           0x80000f90        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .bss           0x80000f94        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
+ *(COMMON)
+ COMMON         0x80000f94        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x80000f94                xfunc_in
+                0x80000f98                xfunc_out
+ COMMON         0x80000f9c        0x4 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x80000f9c                exc_nest_count
+                0x80000fa0                _e_bss = .
+
+.stack          0x80000fa0      0x800 load address 0x2000e688
+                0x80000fa0                . = ALIGN (0x4)
+                0x80000fa0                _f_stack = .
+                0x800017a0                . = (. + 0x800)
+ *fill*         0x80000fa0      0x800 
+                0x800017a0                _e_stack = .
+
+.heap           0x800017a0     0x2000 load address 0x2000e688
+                0x800017a0                . = ALIGN (0x4)
+                0x800017a0                __start_heap = .
+                0x800017a0                _f_heap = .
+                0x800037a0                . = (. + 0x2000)
+ *fill*         0x800017a0     0x2000 
+                0x800037a0                _e_heap = .
+                0x800037a0                __end_heap = .
+                0x20000800                _load_addr_text = LOADADDR (.text)
+                0x2000bffc                _load_addr_rodata = LOADADDR (.rodata)
+                0x2000d8dc                _load_addr_data = LOADADDR (.data)
+LOAD obj_iotdk_10/gnu_arcem9d/application/./main.o
+LOAD obj_iotdk_10/gnu_arcem9d/board/board.o
+LOAD obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+LOAD obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+START GROUP
+LOAD obj_iotdk_10/gnu_arcem9d/libembarc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libm.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a
+END GROUP
+START GROUP
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libnosys.a
+END GROUP
+OUTPUT(obj_iotdk_10/gnu_arcem9d/ble_hm1x_gnu_arcem9d.elf elf32-littlearc)
+
+.debug_info     0x00000000     0xe95f
+ .debug_info    0x00000000     0x1541 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_info    0x00001541      0xf83 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_info    0x000024c4      0x1f8 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_info    0x000026bc       0x26 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_info    0x000026e2     0x1d15 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_info    0x000043f7      0x674 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_info    0x00004a6b      0x86c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_info    0x000052d7      0xa7b obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_info    0x00005d52      0x865 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_info    0x000065b7     0x125b obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_info    0x00007812      0x8c0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_info    0x000080d2      0x3fc obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_info    0x000084ce      0x916 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_info    0x00008de4     0x1735 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_info    0x0000a519       0x26 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_info    0x0000a53f      0x9d2 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_info    0x0000af11     0x1161 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_info    0x0000c072      0xe9e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_info    0x0000cf10     0x102f obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_info    0x0000df3f      0xa20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+
+.debug_abbrev   0x00000000     0x3564
+ .debug_abbrev  0x00000000      0x2c0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_abbrev  0x000002c0      0x34b obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_abbrev  0x0000060b      0x16e obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_abbrev  0x00000779       0x14 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_abbrev  0x0000078d      0x4f7 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_abbrev  0x00000c84      0x1fb obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_abbrev  0x00000e7f      0x347 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_abbrev  0x000011c6      0x313 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_abbrev  0x000014d9      0x2e1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_abbrev  0x000017ba      0x368 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_abbrev  0x00001b22      0x2f2 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_abbrev  0x00001e14      0x1c4 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_abbrev  0x00001fd8      0x301 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_abbrev  0x000022d9      0x447 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_abbrev  0x00002720       0x14 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_abbrev  0x00002734      0x1cf obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_abbrev  0x00002903      0x2f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_abbrev  0x00002bf3      0x3d4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_abbrev  0x00002fc7      0x36e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_abbrev  0x00003335      0x22f obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+
+.debug_loc      0x00000000     0x68f5
+ .debug_loc     0x00000000      0x145 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_loc     0x00000145       0x40 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_loc     0x00000185       0xa3 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_loc     0x00000228      0xf68 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_loc     0x00001190      0x14d obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_loc     0x000012dd      0x9ba obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_loc     0x00001c97      0x2d2 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_loc     0x00001f69       0xdf obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_loc     0x00002048     0x10ff obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_loc     0x00003147      0x633 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_loc     0x0000377a      0x56a obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_loc     0x00003ce4      0xc61 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_loc     0x00004945      0x859 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_loc     0x0000519e      0xeea obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_loc     0x00006088      0x833 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_loc     0x000068bb       0x3a obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+
+.debug_aranges  0x00000000      0x280
+ .debug_aranges
+                0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_aranges
+                0x00000020       0x20 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_aranges
+                0x00000040       0x20 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_aranges
+                0x00000060       0x20 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_aranges
+                0x00000080       0x20 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_aranges
+                0x000000a0       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_aranges
+                0x000000c0       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_aranges
+                0x000000e0       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_aranges
+                0x00000100       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_aranges
+                0x00000120       0x20 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_aranges
+                0x00000140       0x20 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_aranges
+                0x00000160       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_aranges
+                0x00000180       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_aranges
+                0x000001a0       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_aranges
+                0x000001c0       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_aranges
+                0x000001e0       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_aranges
+                0x00000200       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_aranges
+                0x00000220       0x20 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_aranges
+                0x00000240       0x20 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_aranges
+                0x00000260       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+
+.debug_ranges   0x00000000      0x538
+ .debug_ranges  0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_ranges  0x00000010       0x18 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_ranges  0x00000028       0x60 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_ranges  0x00000088       0x40 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_ranges  0x000000c8       0xb0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_ranges  0x00000178       0x18 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_ranges  0x00000190       0x18 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_ranges  0x000001a8       0x18 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_ranges  0x000001c0       0xb0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_ranges  0x00000270       0x48 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_ranges  0x000002b8      0x1b8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_ranges  0x00000470       0x80 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_ranges  0x000004f0       0x48 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+
+.debug_line     0x00000000     0x583e
+ .debug_line    0x00000000      0x414 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_line    0x00000414      0x2c7 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_line    0x000006db       0xec obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_line    0x000007c7       0xc8 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_line    0x0000088f      0x754 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_line    0x00000fe3      0x1ee obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_line    0x000011d1      0x340 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_line    0x00001511      0x55d obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_line    0x00001a6e      0x60d obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_line    0x0000207b      0x321 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_line    0x0000239c      0x818 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_line    0x00002bb4      0x36b obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_line    0x00002f1f      0x6f5 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_line    0x00003614      0x89d obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_line    0x00003eb1       0xaa obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_line    0x00003f5b      0x16c obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_line    0x000040c7      0x5da obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_line    0x000046a1      0x7b5 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_line    0x00004e56      0x876 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_line    0x000056cc      0x172 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+
+.debug_str      0x00000000     0x23df
+ .debug_str     0x00000000      0xa06 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                0xacb (size before relaxing)
+ .debug_str     0x00000a06       0x93 obj_iotdk_10/gnu_arcem9d/board/board.o
+                                0xa39 (size before relaxing)
+ .debug_str     0x00000a99      0x12f obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                                0x22b (size before relaxing)
+ .debug_str     0x00000bc8       0x1d obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+                                 0x59 (size before relaxing)
+ .debug_str     0x00000be5      0x201 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+                                0xd10 (size before relaxing)
+ .debug_str     0x00000de6      0x147 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                                0x6e7 (size before relaxing)
+ .debug_str     0x00000f2d      0x13b obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                                0x6fb (size before relaxing)
+ .debug_str     0x00001068      0x285 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                                0x908 (size before relaxing)
+ .debug_str     0x000012ed      0x1f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                                0x574 (size before relaxing)
+ .debug_str     0x000014dd       0xb9 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                                0xb8b (size before relaxing)
+ .debug_str     0x00001596       0xaa obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                                0x20f (size before relaxing)
+ .debug_str     0x00001640       0x24 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                                0x214 (size before relaxing)
+ .debug_str     0x00001664      0x21f obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                                0x441 (size before relaxing)
+ .debug_str     0x00001883      0x361 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                0x680 (size before relaxing)
+ .debug_str     0x00001be4        0xe obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                                 0x59 (size before relaxing)
+ .debug_str     0x00001bf2       0x24 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+                                0x602 (size before relaxing)
+ .debug_str     0x00001c16      0x3ff obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                                0x843 (size before relaxing)
+ .debug_str     0x00002015      0x111 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                                0x62e (size before relaxing)
+ .debug_str     0x00002126      0x22c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                                0x89b (size before relaxing)
+ .debug_str     0x00002352       0x8d obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+                                0x604 (size before relaxing)
+
+.comment        0x00000000       0x42
+ .comment       0x00000000       0x42 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                 0x43 (size before relaxing)
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
+
+.ARC.attributes
+                0x00000000       0x40
+ .ARC.attributes
+                0x00000000       0x29 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .ARC.attributes
+                0x00000029       0x29 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .ARC.attributes
+                0x00000052       0x2c obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .ARC.attributes
+                0x0000007e       0x25 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .ARC.attributes
+                0x000000a3       0x2c obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .ARC.attributes
+                0x000000cf       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .ARC.attributes
+                0x000000f8       0x2e obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .ARC.attributes
+                0x00000126       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .ARC.attributes
+                0x0000014f       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .ARC.attributes
+                0x0000017b       0x29 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .ARC.attributes
+                0x000001a4       0x33 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .ARC.attributes
+                0x000001d7       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .ARC.attributes
+                0x00000203       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .ARC.attributes
+                0x0000022f       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .ARC.attributes
+                0x0000025b       0x28 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .ARC.attributes
+                0x00000283       0x29 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .ARC.attributes
+                0x000002ac       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .ARC.attributes
+                0x000002d5       0x34 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .ARC.attributes
+                0x00000309       0x2e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .ARC.attributes
+                0x00000337       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+ .ARC.attributes
+                0x00000362       0x28 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcpy-bs.o)
+ .ARC.attributes
+                0x0000038a       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strlen-bs-norm.o)
+ .ARC.attributes
+                0x000003ba       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+ .ARC.attributes
+                0x000003e5       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+ .ARC.attributes
+                0x00000415       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+ .ARC.attributes
+                0x0000044d       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-impure.o)
+ .ARC.attributes
+                0x00000478       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+ .ARC.attributes
+                0x000004a3       0x2e c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+ .ARC.attributes
+                0x000004d1       0x2e c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+ .ARC.attributes
+                0x000004ff       0x28 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memcpy-bs.o)
+ .ARC.attributes
+                0x00000527       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+ .ARC.attributes
+                0x00000552       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+ .ARC.attributes
+                0x00000582       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+ .ARC.attributes
+                0x000005ad       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .ARC.attributes
+                0x000005dd       0x2d c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+ .ARC.attributes
+                0x0000060a       0x2e c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+ .ARC.attributes
+                0x00000638       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+ .ARC.attributes
+                0x00000663       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+ .ARC.attributes
+                0x0000068e       0x2e c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+ .ARC.attributes
+                0x000006bc       0x28 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memset-bs.o)
+ .ARC.attributes
+                0x000006e4       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+ .ARC.attributes
+                0x0000070f       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+ .ARC.attributes
+                0x0000073a       0x25 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strcmp.o)
+ .ARC.attributes
+                0x0000075f       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+ .ARC.attributes
+                0x0000078a       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-ctype_.o)
+ .ARC.attributes
+                0x000007b5       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .ARC.attributes
+                0x000007f5       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .ARC.attributes
+                0x00000835       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+ .ARC.attributes
+                0x00000875       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .ARC.attributes
+                0x000008ad       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .ARC.attributes
+                0x000008e5       0x29 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .ARC.attributes
+                0x0000090e       0x2b c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
+
+.debug_frame    0x00000000     0x273c
+ .debug_frame   0x00000000       0x5c obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_frame   0x0000005c       0x28 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_frame   0x00000084       0xbc obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_frame   0x00000140      0x380 obj_iotdk_10/gnu_arcem9d/device/peripheral/ble/hm1x/hm1x.o
+ .debug_frame   0x000004c0       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_frame   0x000004ec      0x120 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_frame   0x0000060c       0x80 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_frame   0x0000068c      0x1c0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_frame   0x0000084c       0x98 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_frame   0x000008e4      0x288 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_frame   0x00000b6c       0x7c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_frame   0x00000be8      0x1a4 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_frame   0x00000d8c      0x208 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_frame   0x00000f94       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_frame   0x00000fb4      0x250 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_frame   0x00001204      0x18c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_frame   0x00001390      0x1b8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_frame   0x00001548       0x54 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sprintf.o)
+ .debug_frame   0x0000159c       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-strncmp.o)
+ .debug_frame   0x000015bc       0xac c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x00001668      0x100 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00001768       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-localeconv.o)
+ .debug_frame   0x000017a8       0x80 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00001828       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00001848       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00001878      0x394 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00001c0c       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001c4c      0x118 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00001d64       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001da4       0xac c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-freer.o)
+ .debug_frame   0x00001e50       0x78 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-locale.o)
+ .debug_frame   0x00001ec8       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00001f08       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00001f28       0xac c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001fd4       0x84 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-reent.o)
+ .debug_frame   0x00002058       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00002088       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .debug_frame   0x000020a8       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .debug_frame   0x000020c8       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(_umoddi3.o)
+ .debug_frame   0x000020e8      0x354 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
+ .debug_frame   0x0000243c      0x2b4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
+ .debug_frame   0x000026f0       0x2c obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .debug_frame   0x0000271c       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda\libc.a(lib_a-errno.o)
