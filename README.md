@@ -1,4 +1,4 @@
-# arc2019
+arc2019
 ===
 Project for Synopsys ARC Contest 2019
 
