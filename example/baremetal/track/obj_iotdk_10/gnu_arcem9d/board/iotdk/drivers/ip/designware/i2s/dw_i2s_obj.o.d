@@ -44,6 +44,8 @@ obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.o: \
  ../../../device/inc/dev_pinmux.h \
  ../../../board/iotdk/drivers/flash_obj/flash_obj.h \
  ../../../device/inc/dev_flash.h ../../../device/inc/dev_common.h \
+ ../../../middleware/common/console_io.h \
+ ../../../middleware/common/xprintf/xprintf.h \
  ../../../library/clib/embARC_syscalls.h \
  ../../../library/clib/embARC_target.h ../../../inc/embARC_debug.h \
  ../../../device/ip/designware/i2s/dw_i2s_hal.h \

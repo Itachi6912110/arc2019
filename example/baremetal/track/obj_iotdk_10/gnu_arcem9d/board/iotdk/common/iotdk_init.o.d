@@ -5,8 +5,9 @@ obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o: \
  obj_iotdk_10/gnu_arcem9d/embARC_generated/core_config.h \
  ../../../inc/arc/arc_timer.h ../../../inc/arc/arc.h \
  ../../../inc/arc/arc_builtin.h ../../../inc/arc/arc_exception.h \
- ../../../inc/embARC_debug.h ../../../board/board.h \
- ../../../board/iotdk/iotdk.h ../../../inc/arc/arc_em.h \
+ ../../../inc/embARC_debug.h ../../../middleware/common/xprintf/xprintf.h \
+ ../../../board/board.h ../../../board/iotdk/iotdk.h \
+ ../../../inc/arc/arc_em.h \
  ../../../board/iotdk/drivers/ip/designware/i2s/dw_i2s_obj.h \
  ../../../device/ip/ip_hal/inc/dev_i2s.h ../../../device/inc/dev_common.h \
  ../../../board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.h \

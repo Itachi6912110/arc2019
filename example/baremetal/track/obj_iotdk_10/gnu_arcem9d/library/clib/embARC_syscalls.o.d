@@ -2,10 +2,11 @@ obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o: \
  ../../../library/clib/embARC_syscalls.c \
  ../../../library/clib/embARC_syscalls.h \
  ../../../library/clib/embARC_target.h ../../../inc/embARC_debug.h \
- ../../../inc/embARC.h ../../../inc/embARC_toolchain.h \
- ../../../inc/embARC_error.h ../../../inc/arc/arc_builtin.h \
- ../../../inc/embARC_toolchain.h ../../../inc/arc/arc_timer.h \
- ../../../inc/arc/arc.h ../../../inc/arc/arc_feature_config.h \
+ ../../../middleware/common/xprintf/xprintf.h ../../../inc/embARC.h \
+ ../../../inc/embARC_toolchain.h ../../../inc/embARC_error.h \
+ ../../../inc/arc/arc_builtin.h ../../../inc/embARC_toolchain.h \
+ ../../../inc/arc/arc_timer.h ../../../inc/arc/arc.h \
+ ../../../inc/arc/arc_feature_config.h \
  obj_iotdk_10/gnu_arcem9d/embARC_generated/core_config.h \
  ../../../inc/arc/arc_builtin.h ../../../inc/arc/arc_exception.h \
  ../../../inc/arc/arc_cache.h ../../../inc/arc/arc_exception.h \
@@ -43,4 +44,5 @@ obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o: \
  ../../../board/iotdk/configs/10/iotdk_hardware.h \
  ../../../board/iotdk/configs/10/io_config.h \
  ../../../board/iotdk/configs/10/apexextensions.h \
+ ../../../middleware/common/console_io.h \
  ../../../library/clib/embARC_syscalls.h

@@ -46,5 +46,7 @@ obj_iotdk_10/gnu_arcem9d/device/ip/designware/i2s/dw_i2s.o: \
  ../../../board/iotdk/configs/10/iotdk_hardware.h \
  ../../../board/iotdk/configs/10/io_config.h \
  ../../../board/iotdk/configs/10/apexextensions.h \
+ ../../../middleware/common/console_io.h \
+ ../../../middleware/common/xprintf/xprintf.h \
  ../../../library/clib/embARC_syscalls.h \
  ../../../library/clib/embARC_target.h ../../../inc/embARC_debug.h

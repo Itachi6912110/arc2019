@@ -38,4 +38,5 @@ obj_iotdk_10/gnu_arcem9d/device/ip/designware/sdio/dw_sdio.o: \
  ../../../board/iotdk/configs/10/apexextensions.h \
  ../../../device/ip/designware/sdio/dw_sdio_hal.h \
  ../../../device/ip/designware/sdio/dw_sdio.h \
- ../../../device/ip/ip_hal/inc/dev_sdio.h ../../../inc/embARC_debug.h
+ ../../../device/ip/ip_hal/inc/dev_sdio.h ../../../inc/embARC_debug.h \
+ ../../../middleware/common/xprintf/xprintf.h

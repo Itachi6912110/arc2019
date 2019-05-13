@@ -28,11 +28,10 @@
  *
 --------------------------------------------- */
 
-#include "Include.h"
+#include "embARC.h"
+#include "embARC_debug.h"
 #include "sccb.h"
 #include "ov7670.h"
-
-#define DEBUG
 
 #define PIN_VSYNC 0
 #define PIN_PCLK 1
@@ -46,7 +45,7 @@ void captureImg(uint16_t width, uint16_t height);
 int main(void) {
     // config SCCB
     sccbInit(0);
-    EMBARC_PRINTF("SSCCB init done\n");
+    // EMBARC_PRINTF("SSCCB init done\n");
 
     // config PWM
     io_arduino_config(ARDUINO_PIN_3, ARDUINO_PWM, IO_PINMUX_ENABLE);//pwm timer ch0
@@ -58,7 +57,7 @@ int main(void) {
 	DEV_PWM_TIMER_PTR pwm_timer_test = pwm_timer_get_dev(DW_PWM_TIMER_0_ID);
 	pwm_timer_test->pwm_timer_open();
 	pwm_timer_test->pwm_timer_control(0, PWM_TIMER_CMD_SET_CFG, (void *)(&ch0_pwm_cfg));
-	EMBARC_PRINTF("PWM init done\n");
+	// EMBARC_PRINTF("PWM init done\n");
     board_delay_ms(3000, 1);
 
     // other pins
@@ -92,12 +91,10 @@ int main(void) {
     camInit();
     setRes(QQVGA);
     setColorSpace(RGB565);
-    EMBARC_PRINTF("Cam init done\n");
+
+    // EMBARC_PRINTF("Cam init done\n");
 
     writeReg(0x11, 63);
-    //board_delay_ms(1000, 0);
-    //uint8_t data = readReg(0x44);
-    //EMBARC_PRINTF("%d\n",data);
 
     while(1) {
         captureImg(160*2, 120);
@@ -130,10 +127,10 @@ inline bool pclkLow() {
 
 void captureImg(uint16_t width, uint16_t height) {
     uint8_t buf[320];
-    EMBARC_PRINTF("RDY\n");
+    EMBARC_PRINTF("RDY");
     while(vsyncLow());
     while(vsyncHigh());
-    EMBARC_PRINTF("START\n");
+
     while(height--) {
         // EMBARC_PRINTF("I");
         uint8_t* readPtr = buf;
@@ -143,35 +140,20 @@ void captureImg(uint16_t width, uint16_t height) {
         int writeTime = 320 - 64;
         // EMBARC_PRINTF("%d", readTime);
         while(readTime--) {
-            EMBARC_PRINTF("0\n");
             while(pclkHigh());
-            EMBARC_PRINTF("1\n");
             data_ptr->gpio_read((uint32_t *)readPtr++, PIN_DATA);
-            EMBARC_PRINTF("2\n");
             while(pclkLow());
-            EMBARC_PRINTF("3\n");
             while(pclkHigh());
-            EMBARC_PRINTF("4\n");
             data_ptr->gpio_read((uint32_t *)readPtr++, PIN_DATA);
-            EMBARC_PRINTF("5\n");
             while(pclkLow());
-            EMBARC_PRINTF("6\n");
             while(pclkHigh());
-            EMBARC_PRINTF("7\n");
             data_ptr->gpio_read((uint32_t *)readPtr++, PIN_DATA);
-            EMBARC_PRINTF("8\n");
             while(pclkLow());
-            EMBARC_PRINTF("9\n");
             while(pclkHigh());
-            EMBARC_PRINTF("10\n");
             data_ptr->gpio_read((uint32_t *)readPtr++, PIN_DATA);
-            EMBARC_PRINTF("11\n");
             while(pclkLow());
-            EMBARC_PRINTF("12\n");
             while(pclkHigh());
-            EMBARC_PRINTF("13\n");
             data_ptr->gpio_read((uint32_t *)readPtr++, PIN_DATA);
-            EMBARC_PRINTF("14\n");
             EMBARC_PRINTF("%c", *writePtr++);
             while(pclkLow());
         }

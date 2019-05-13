@@ -28,25 +28,7 @@ obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o: \
  ../../../board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.h \
  ../../../device/ip/ip_hal/inc/dev_gpio.h \
  ../../../board/iotdk/drivers/ntshell/ntshell_io.h \
- ../../../board/iotdk/drivers/ntshell/ntshell_io_uart.h \
- ../../../middleware/ntshell/port/ntshell_task.h \
- ../../../middleware/ntshell/port/ntshell_usrcmd.h \
- ../../../middleware/ntshell/port/ntshell_config.h \
- ../../../middleware/ntshell/port/../src/ntshell.h \
- ../../../middleware/ntshell/port/../src/vtrecv.h \
- ../../../middleware/ntshell/port/../src/vtsend.h \
- ../../../middleware/ntshell/port/../src/text_editor.h \
- ../../../middleware/ntshell/port/../src/ntconf.h \
- ../../../middleware/ntshell/port/../src/text_history.h \
- ../../../middleware/ntshell/port/../src/ntopt.h \
- ../../../middleware/ntshell/port/../src/ntlibc.h \
- ../../../board/iotdk/drivers/ntshell/ntshell_io_netconn.h \
  ../../../board/iotdk/drivers/sdcard/sdcard.h \
- ../../../board/iotdk/drivers/sdcard/sdcard_sdio.h \
- ../../../middleware/fatfs/source/diskdrv/ff_diskio.h \
- ../../../middleware/fatfs/source/diskio.h \
- ../../../middleware/fatfs/source/integer.h \
- ../../../device/ip/ip_hal/inc/dev_sdio.h \
  ../../../board/iotdk/drivers/sysconf/sysconf.h \
  ../../../board/iotdk/common/iotdk_timer.h \
  ../../../board/iotdk/drivers/pmwifi/pmwifi.h \
@@ -61,7 +43,5 @@ obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o: \
  ../../../board/iotdk/configs/10/apexextensions.h \
  ../../../middleware/common/console_io.h \
  ../../../middleware/common/xprintf/xprintf.h \
- ../../../middleware/fatfs/source/ff.h \
- ../../../middleware/fatfs/source/ffconf.h \
  ../../../library/clib/embARC_syscalls.h \
  ../../../library/clib/embARC_target.h

@@ -1,4 +1,4 @@
-obj_iotdk_10/gnu_arcem9d/application/./main.o: main.c Include.h \
+obj_iotdk_10/gnu_arcem9d/application/./sccb.o: sccb.c sccb.h Include.h \
  ../../../inc/embARC.h ../../../inc/embARC_toolchain.h \
  ../../../inc/embARC_error.h ../../../inc/arc/arc_builtin.h \
  ../../../inc/embARC_toolchain.h ../../../inc/arc/arc_timer.h \
@@ -44,4 +44,4 @@ obj_iotdk_10/gnu_arcem9d/application/./main.o: main.c Include.h \
  ../../../middleware/common/xprintf/xprintf.h \
  ../../../library/clib/embARC_syscalls.h \
  ../../../library/clib/embARC_target.h ../../../inc/embARC_debug.h \
- ../../../inc/embARC_error.h sccb.h ov7670.h
+ ../../../inc/embARC_error.h

@@ -3,5 +3,7 @@
 
 #include "embARC.h"
 #include "embARC_debug.h"
+#include "embARC_error.h"
+#include <stdint.h>
 
 #endif
