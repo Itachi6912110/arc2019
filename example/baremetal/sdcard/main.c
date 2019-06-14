@@ -15,7 +15,7 @@
 
 #define NUM_BYTE_READ 4096
 
-#define BUFF_SPACE 8192
+#define BUFF_SPACE 90000
 
 #define BOOT_CFG_FILE_NAME	"boot.json"
 #define BOOT_FILE_NAME		"0:\\boot.bin"

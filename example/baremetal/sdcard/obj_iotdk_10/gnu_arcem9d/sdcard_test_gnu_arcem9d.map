@@ -208,7 +208,7 @@ c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
 Allocating common symbols
 Common symbol       size              file
 
-file_buff           0x2000            obj_iotdk_10/gnu_arcem9d/application/./main.o
+file_buff           0x15f90           obj_iotdk_10/gnu_arcem9d/application/./main.o
 fp                  0x228             obj_iotdk_10/gnu_arcem9d/application/./main.o
 xfunc_in            0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
 xfunc_out           0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
@@ -1099,7 +1099,7 @@ LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpu
                 0x80000edc                _e_sdata = .
                 0x80000edc                _e_data = .
 
-.bss            0x80000ee0     0x2978 load address 0x20028a58
+.bss            0x80000ee0    0x16908 load address 0x20028a58
                 0x80000ee0                _f_bss = .
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -1215,34 +1215,34 @@ LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpu
  .bss           0x8000161c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(dp-bit.o)
  .bss           0x8000161c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda\libgcc.a(fp-bit.o)
  *(COMMON)
- COMMON         0x8000161c     0x222c obj_iotdk_10/gnu_arcem9d/application/./main.o
+ COMMON         0x8000161c    0x161bc obj_iotdk_10/gnu_arcem9d/application/./main.o
                 0x8000161c                file_buff
-                0x8000361c                fp
-                0x80003844                error_num
- COMMON         0x80003848        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
-                0x80003848                xfunc_in
-                0x8000384c                xfunc_out
- COMMON         0x80003850        0x4 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
-                0x80003850                exc_nest_count
- COMMON         0x80003854        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_syscalls.o
-                0x80003854                stdio_uart_obj
-                0x80003858                _e_bss = .
+                0x800175ac                fp
+                0x800177d4                error_num
+ COMMON         0x800177d8        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x800177d8                xfunc_in
+                0x800177dc                xfunc_out
+ COMMON         0x800177e0        0x4 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x800177e0                exc_nest_count
+ COMMON         0x800177e4        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_syscalls.o
+                0x800177e4                stdio_uart_obj
+                0x800177e8                _e_bss = .
 
-.stack          0x80003858     0x4000 load address 0x20028a58
-                0x80003858                . = ALIGN (0x4)
-                0x80003858                _f_stack = .
-                0x80007858                . = (. + 0x4000)
- *fill*         0x80003858     0x4000 
-                0x80007858                _e_stack = .
+.stack          0x800177e8     0x4000 load address 0x20028a58
+                0x800177e8                . = ALIGN (0x4)
+                0x800177e8                _f_stack = .
+                0x8001b7e8                . = (. + 0x4000)
+ *fill*         0x800177e8     0x4000 
+                0x8001b7e8                _e_stack = .
 
-.heap           0x80007858     0x4000 load address 0x20028a58
-                0x80007858                . = ALIGN (0x4)
-                0x80007858                __start_heap = .
-                0x80007858                _f_heap = .
-                0x8000b858                . = (. + 0x4000)
- *fill*         0x80007858     0x4000 
-                0x8000b858                _e_heap = .
-                0x8000b858                __end_heap = .
+.heap           0x8001b7e8     0x4000 load address 0x20028a58
+                0x8001b7e8                . = ALIGN (0x4)
+                0x8001b7e8                __start_heap = .
+                0x8001b7e8                _f_heap = .
+                0x8001f7e8                . = (. + 0x4000)
+ *fill*         0x8001b7e8     0x4000 
+                0x8001f7e8                _e_heap = .
+                0x8001f7e8                __end_heap = .
                 0x20000800                _load_addr_text = LOADADDR (.text)
                 0x20017270                _load_addr_rodata = LOADADDR (.rodata)
                 0x20027b7c                _load_addr_data = LOADADDR (.data)
@@ -1263,67 +1263,67 @@ LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpu
 END GROUP
 OUTPUT(obj_iotdk_10/gnu_arcem9d/sdcard_test_gnu_arcem9d.elf elf32-littlearc)
 
-.debug_info     0x00000000    0x22017
- .debug_info    0x00000000     0x19e8 obj_iotdk_10/gnu_arcem9d/application/./main.o
- .debug_info    0x000019e8     0x17bd obj_iotdk_10/gnu_arcem9d/board/board.o
- .debug_info    0x000031a5      0x1f8 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
- .debug_info    0x0000339d       0x26 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
- .debug_info    0x000033c3      0xcee obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
- .debug_info    0x000040b1      0xee6 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
- .debug_info    0x00004f97     0x10dd obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
- .debug_info    0x00006074      0x865 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
- .debug_info    0x000068d9     0x17fa obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
- .debug_info    0x000080d3      0x8c0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
- .debug_info    0x00008993     0x722d obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ff.o
- .debug_info    0x0000fbc0      0x3fc obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
- .debug_info    0x0000ffbc      0x916 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
- .debug_info    0x000108d2     0x1735 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
- .debug_info    0x00012007       0x26 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
- .debug_info    0x0001202d      0x9d2 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
- .debug_info    0x000129ff     0x1161 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
- .debug_info    0x00013b60      0xe9e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
- .debug_info    0x000149fe     0x102f obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
- .debug_info    0x00015a2d      0x553 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskio.o
- .debug_info    0x00015f80      0x36e obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ffunicode.o
- .debug_info    0x000162ee      0xbb4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard.o
- .debug_info    0x00016ea2     0x1726 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard_sdio.o
- .debug_info    0x000185c8     0x1b06 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskdrv/ff_sdcard_sdio.o
- .debug_info    0x0001a0ce      0x7a2 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.o
- .debug_info    0x0001a870     0x358b obj_iotdk_10/gnu_arcem9d/device/ip/designware/sdio/dw_sdio.o
- .debug_info    0x0001ddfb      0xa20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
- .debug_info    0x0001e81b     0x2c08 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_syscalls.o
- .debug_info    0x00021423      0xbf4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_target.o
+.debug_info     0x00000000    0x2201b
+ .debug_info    0x00000000     0x19ec obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_info    0x000019ec     0x17bd obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_info    0x000031a9      0x1f8 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_info    0x000033a1       0x26 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_info    0x000033c7      0xcee obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_info    0x000040b5      0xee6 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_info    0x00004f9b     0x10dd obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_info    0x00006078      0x865 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_info    0x000068dd     0x17fa obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_info    0x000080d7      0x8c0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_info    0x00008997     0x722d obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ff.o
+ .debug_info    0x0000fbc4      0x3fc obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_info    0x0000ffc0      0x916 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_info    0x000108d6     0x1735 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_info    0x0001200b       0x26 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_info    0x00012031      0x9d2 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_info    0x00012a03     0x1161 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_info    0x00013b64      0xe9e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_info    0x00014a02     0x102f obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_info    0x00015a31      0x553 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskio.o
+ .debug_info    0x00015f84      0x36e obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ffunicode.o
+ .debug_info    0x000162f2      0xbb4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard.o
+ .debug_info    0x00016ea6     0x1726 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard_sdio.o
+ .debug_info    0x000185cc     0x1b06 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskdrv/ff_sdcard_sdio.o
+ .debug_info    0x0001a0d2      0x7a2 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.o
+ .debug_info    0x0001a874     0x358b obj_iotdk_10/gnu_arcem9d/device/ip/designware/sdio/dw_sdio.o
+ .debug_info    0x0001ddff      0xa20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .debug_info    0x0001e81f     0x2c08 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_syscalls.o
+ .debug_info    0x00021427      0xbf4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_target.o
 
-.debug_abbrev   0x00000000     0x5247
- .debug_abbrev  0x00000000      0x354 obj_iotdk_10/gnu_arcem9d/application/./main.o
- .debug_abbrev  0x00000354      0x38a obj_iotdk_10/gnu_arcem9d/board/board.o
- .debug_abbrev  0x000006de      0x16e obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
- .debug_abbrev  0x0000084c       0x14 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
- .debug_abbrev  0x00000860      0x26a obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
- .debug_abbrev  0x00000aca      0x3bf obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
- .debug_abbrev  0x00000e89      0x38b obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
- .debug_abbrev  0x00001214      0x2e1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
- .debug_abbrev  0x000014f5      0x364 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
- .debug_abbrev  0x00001859      0x2f2 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
- .debug_abbrev  0x00001b4b      0x40f obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ff.o
- .debug_abbrev  0x00001f5a      0x1c4 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
- .debug_abbrev  0x0000211e      0x301 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
- .debug_abbrev  0x0000241f      0x447 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
- .debug_abbrev  0x00002866       0x14 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
- .debug_abbrev  0x0000287a      0x1cf obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
- .debug_abbrev  0x00002a49      0x2f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
- .debug_abbrev  0x00002d39      0x3d4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
- .debug_abbrev  0x0000310d      0x36e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
- .debug_abbrev  0x0000347b      0x18f obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskio.o
- .debug_abbrev  0x0000360a      0x119 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ffunicode.o
- .debug_abbrev  0x00003723      0x262 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard.o
- .debug_abbrev  0x00003985      0x2fd obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard_sdio.o
- .debug_abbrev  0x00003c82      0x3c2 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskdrv/ff_sdcard_sdio.o
- .debug_abbrev  0x00004044      0x22f obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.o
- .debug_abbrev  0x00004273      0x4d2 obj_iotdk_10/gnu_arcem9d/device/ip/designware/sdio/dw_sdio.o
- .debug_abbrev  0x00004745      0x22f obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
- .debug_abbrev  0x00004974      0x652 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_syscalls.o
- .debug_abbrev  0x00004fc6      0x281 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_target.o
+.debug_abbrev   0x00000000     0x5250
+ .debug_abbrev  0x00000000      0x35d obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_abbrev  0x0000035d      0x38a obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_abbrev  0x000006e7      0x16e obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_abbrev  0x00000855       0x14 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_abbrev  0x00000869      0x26a obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_abbrev  0x00000ad3      0x3bf obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_abbrev  0x00000e92      0x38b obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_abbrev  0x0000121d      0x2e1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_abbrev  0x000014fe      0x364 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_abbrev  0x00001862      0x2f2 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_abbrev  0x00001b54      0x40f obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ff.o
+ .debug_abbrev  0x00001f63      0x1c4 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_abbrev  0x00002127      0x301 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_abbrev  0x00002428      0x447 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_abbrev  0x0000286f       0x14 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_abbrev  0x00002883      0x1cf obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_abbrev  0x00002a52      0x2f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_abbrev  0x00002d42      0x3d4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_abbrev  0x00003116      0x36e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_abbrev  0x00003484      0x18f obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskio.o
+ .debug_abbrev  0x00003613      0x119 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/ffunicode.o
+ .debug_abbrev  0x0000372c      0x262 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard.o
+ .debug_abbrev  0x0000398e      0x2fd obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sdcard/sdcard_sdio.o
+ .debug_abbrev  0x00003c8b      0x3c2 obj_iotdk_10/gnu_arcem9d/middleware/fatfs/source/diskdrv/ff_sdcard_sdio.o
+ .debug_abbrev  0x0000404d      0x22f obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/designware/sdio/dw_sdio_obj.o
+ .debug_abbrev  0x0000427c      0x4d2 obj_iotdk_10/gnu_arcem9d/device/ip/designware/sdio/dw_sdio.o
+ .debug_abbrev  0x0000474e      0x22f obj_iotdk_10/gnu_arcem9d/library/clib/embarc_sbrk.o
+ .debug_abbrev  0x0000497d      0x652 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_syscalls.o
+ .debug_abbrev  0x00004fcf      0x281 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_target.o
 
 .debug_loc      0x00000000    0x16306
  .debug_loc     0x00000000       0x4a obj_iotdk_10/gnu_arcem9d/application/./main.o
