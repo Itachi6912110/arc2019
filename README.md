@@ -2,19 +2,15 @@ arc2019
 ===
 Project for Synopsys ARC Contest 2019
 
-# Merging code
-- After modifying code, the following steps shoulb be implemented
-a. stash code
-```
-git stash
-```
+# Tracking algorithm implementation
+Details can be seen in example/baremetal/KCF_mod
 
-b. pull request
-```
-git pull
-```
+# Utilizing SPI Flash
+Details can refer to example/baremetal/spi
 
-c. restore
-```
-git stash apply
-```
+# Using SD Card
+Details can be seen in example/baremetal/sdcard
+
+# Training SqueezeDet
+Model training is the modification on SqueezeDet
+Reference: https://github.com/BichenWuUCB/squeezeDet
