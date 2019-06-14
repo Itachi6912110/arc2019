@@ -5,6 +5,9 @@ Project for Synopsys ARC Contest 2019
 # Tracking algorithm implementation
 Details can be seen in example/baremetal/KCF_mod
 
+# Using camera
+Details can be seen in example/baremetal/track
+
 # Utilizing SPI Flash
 Details can refer to example/baremetal/spi
 
