@@ -1,0 +1,1868 @@
+為了滿足檔案參照(符號)而包含了歸檔成員
+
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                              obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o (ss_uart_open)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                              obj_iotdk_10/gnu_arcem9d/board/board.o (board_init)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o (io_pmod_config)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o (sysconf_reg_ptr)
+obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                              obj_iotdk_10/gnu_arcem9d/board/board.o (xprintf_setup)
+obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (xfunc_out)
+obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                              obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o (exc_int_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                              obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o (arc_cache_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o (timer_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                              obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o (exc_entry_cpu)
+obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (gnu_printf_setup)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                              obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o (io_uart_open)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o (iotdk_timer_init)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+                              obj_iotdk_10/gnu_arcem9d/application/./main.o (getchar)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o) (_impure_ptr)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o) (_getc_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o) (__srget_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o) (__sinit)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o) (_fwalk)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o) (_malloc_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memset-bs.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o) (memset)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o) (__srefill_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o) (__sread)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o) (_write_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o) (_close_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o) (_fclose_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o) (__sflush_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o) (_free_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o) (_lseek_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o) (__smakebuf_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o) (_read_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o) (errno)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o) (_fstat_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o) (_isatty_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (__divdi3)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (__udivdi3)
+obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o) (_close)
+obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o) (_sbrk)
+obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o (get_build_timedate)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o (__errno)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcmp-bs-norm.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o (memcmp)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o (mktime)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o (sscanf)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strlen-bs-norm.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o (strlen)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o (strncmp)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o) (__ssvfscanf_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o) (__tzcalc_limits)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o) (__tz_lock)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o) (_tzset_unlocked)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o) (_tzset_unlocked_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o) (_timezone)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o) (div)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o) (_getenv_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o) (__gettzinfo)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (iswspace)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (__locale_mb_cur_max)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_localeconv_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o) (free)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_mbrtowc_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o) (__month_lengths)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (__sccl)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (nanf)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o) (siscanf)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (sprintf)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcmp.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o) (strcmp)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcpy-bs.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o) (strcpy)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_strtod_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_strtol_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_strtoll_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_strtoul_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_strtoull_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o) (_sungetc_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o) (__submore)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o) (__ascii_wctomb)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o) (_ctype_)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o) (environ)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o) (__env_lock)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o) (__gethex)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o) (__match)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o) (memchr)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcpy-bs.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o) (memcpy)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o) (_Balloc)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o) (_realloc_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o) (_calloc_r)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o) (memmove)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+                              obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o (__umoddi3)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o) (__divdf3)
+/home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                              /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o) (__make_fp)
+
+配置公共符號
+公共符號            大小              檔案
+
+xfunc_in            0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+xfunc_out           0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+dfss_uart_0         0x5c              obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+stdio_uart_obj      0x4               obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+exc_nest_count      0x4               obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+
+記憶體配置
+
+名稱           來源             長度             屬性
+REGION_ICCM      0x0000000020000000 0x0000000000040000
+REGION_DCCM      0x0000000080000000 0x0000000000020000
+REGION_EXT_ROM   0x0000000000000000 0x0000000000040000
+REGION_EXT_RAM   0x0000000030000000 0x0000000000020000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+鏈結器命令稿和記憶體對映
+
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libm.a
+
+.init           0x0000000020000000      0x214
+                0x0000000020000000                . = (. + 0x0)
+                0x0000000020000000                _f_init = .
+ *(.init_vector)
+ .init_vector   0x0000000020000000        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ *(.init_bootstrap)
+ .init_bootstrap
+                0x0000000020000004      0x210 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+                0x0000000020000004                _start
+                0x0000000020000004                _arc_reset
+                0x0000000020000200                _exit_halt
+                0x0000000020000200                _exit_loop
+                0x0000000020000214                _e_init = .
+
+.vector         0x0000000020000400      0x400
+                0x0000000020000400                _f_vector = .
+ *(.vector)
+ .vector        0x0000000020000400      0x400 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x0000000020000400                exc_entry_table
+                0x0000000020000800                _e_vector = .
+
+.text           0x0000000020000800    0x10f84
+                0x0000000020000800                _f_text = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x0000000020000800        0x4 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                0x0000000020000800                waitStart
+ .text.startup  0x0000000020000804       0x70 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                0x0000000020000804                main
+ .text          0x0000000020000874      0x108 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+                0x0000000020000874                uart_tx_cb0
+                0x0000000020000880                uart_rx_cb0
+                0x000000002000088c                uart_err_cb0
+                0x0000000020000898                dfss_uart_0_open
+                0x00000000200008a4                dfss_uart_0_close
+                0x00000000200008b0                dfss_uart_0_control
+                0x00000000200008c0                dfss_uart_0_write
+                0x00000000200008d0                dfss_uart_0_read
+                0x00000000200008e0                uart_get_dev
+                0x000000002000092c                dfss_uart_all_install
+                0x0000000020000978                dfss_uart_0_install
+ .text          0x000000002000097c       0x38 obj_iotdk_10/gnu_arcem9d/board/board.o
+                0x000000002000097c                board_main
+ .text          0x00000000200009b4       0xa0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x00000000200009b4                __do_global_ctors_aux
+                0x00000000200009e0                __do_global_dtors_aux
+                0x0000000020000a14                __cxa_atexit
+                0x0000000020000a18                __do_init_array_aux
+                0x0000000020000a50                __cxa_pure_virtual
+ .text          0x0000000020000a54        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .text          0x0000000020000a54      0x4d4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x0000000020000ae8                ss_uart_open
+                0x0000000020000bc0                ss_uart_close
+                0x0000000020000bf0                ss_uart_control
+                0x0000000020000d80                ss_uart_write
+                0x0000000020000e28                ss_uart_read
+                0x0000000020000ed4                ss_uart_tx_cb
+                0x0000000020000ef4                ss_uart_rx_cb
+                0x0000000020000f14                ss_uart_err_cb
+ .text          0x0000000020000f28       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                0x0000000020000f28                board_init
+ .text          0x0000000020000f54      0x388 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                0x0000000020000f54                io_mikro_config
+                0x0000000020000f88                io_arduino_config
+                0x00000000200011a8                io_arduino_config_spi
+                0x00000000200011dc                io_arduino_config_uart
+                0x0000000020001210                io_arduino_config_i2c
+                0x0000000020001244                io_pmod_config
+                0x00000000200012c8                io_mux_init
+ .text          0x00000000200012dc      0x4a8 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x00000000200012dc                pll_conf_reg
+                0x000000002000131c                pll_fout_config
+                0x00000000200013a4                ahb_clk_divisor
+                0x00000000200013b4                ahb_clk_enable
+                0x00000000200013d4                ahb_clk_disable
+                0x00000000200013f8                apb_clk_divisor
+                0x0000000020001408                apb_clk_enable
+                0x0000000020001428                apb_clk_disable
+                0x000000002000144c                sdio_clk_divisor
+                0x000000002000145c                spi_master_clk_divisor
+                0x00000000200014bc                gpio8b_dbclk_div
+                0x0000000020001548                gpio4b_dbclk_div
+                0x00000000200015a8                i2s_tx_clk_div
+                0x00000000200015b8                i2s_rx_clk_div
+                0x00000000200015c8                i2s_rx_clk_sel
+                0x00000000200015d8                syscon_reset
+                0x00000000200015ec                is_poweron_rst
+                0x0000000020001604                dvfs_clk_divisor
+                0x0000000020001680                dvfs_vdd_config
+                0x00000000200016fc                dvfs_vwtime_config
+                0x000000002000170c                pmc_pwwtime_config
+                0x000000002000171c                uart3_clk_divisor
+                0x000000002000172c                reset_powerdown_vector
+                0x000000002000173c                pwm_timer_pause
+                0x000000002000176c                eflash_clk_div
+ .text          0x0000000020001784      0x110 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                0x0000000020001784                console_putchar
+                0x00000000200017b0                console_getchar
+                0x00000000200017e4                console_putstr
+                0x00000000200017f8                console_getstr
+                0x000000002000180c                xprintf_setup
+ .text          0x0000000020001894      0x83c obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x0000000020001914                xputc
+                0x0000000020001934                xputs
+                0x0000000020001978                xfputs
+                0x00000000200019d8                xvprintf
+                0x0000000020001db0                xprintf
+                0x0000000020001dd8                xsprintf
+                0x0000000020001e14                xfprintf
+                0x0000000020001e50                put_dump
+                0x0000000020001fa0                xgets
+                0x0000000020001fb4                xfgets
+                0x0000000020001fe8                xatoi
+ .text          0x00000000200020d0      0x7a0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x000000002000254c                exc_int_init
+                0x00000000200025b8                exc_entry_install
+                0x000000002000262c                exc_entry_get
+                0x0000000020002644                exc_handler_install
+                0x0000000020002660                exc_handler_get
+                0x0000000020002678                int_disable
+                0x00000000200026a0                int_enable
+                0x00000000200026c8                int_enabled
+                0x00000000200026e8                int_ipm_get
+                0x00000000200026f8                int_ipm_set
+                0x0000000020002724                int_pri_get
+                0x0000000020002748                int_pri_set
+                0x0000000020002780                int_secure_set
+                0x00000000200027b4                int_probe
+                0x00000000200027d4                int_sw_trigger
+                0x00000000200027f0                int_level_config
+                0x0000000020002814                cpu_lock
+                0x000000002000281c                cpu_unlock
+                0x0000000020002824                cpu_lock_save
+                0x000000002000282c                cpu_unlock_restore
+                0x0000000020002834                int_handler_install
+                0x0000000020002854                int_handler_get
+ .text          0x0000000020002870      0x440 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                0x0000000020002870                icache_invalidate_mlines
+                0x00000000200028cc                icache_lock_mlines
+                0x000000002000293c                icache_direct_write
+                0x0000000020002968                icache_direct_read
+                0x0000000020002994                icache_indirect_read
+                0x00000000200029c8                dcache_invalidate_mlines
+                0x0000000020002a2c                dcache_flush_mlines
+                0x0000000020002a90                dcache_lock_mlines
+                0x0000000020002b04                dcache_direct_write
+                0x0000000020002b30                dcache_direct_read
+                0x0000000020002b5c                dcache_indirect_read
+                0x0000000020002b90                arc_cache_init
+ .text          0x0000000020002cb0      0x1e8 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x0000000020002cb0                timer_present
+                0x0000000020002cdc                timer_start
+                0x0000000020002d54                timer_stop
+                0x0000000020002dd0                timer_current
+                0x0000000020002e14                timer_int_clear
+                0x0000000020002e50                timer_init
+ .text          0x0000000020002e98      0x2c8 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                0x0000000020002e98                exc_entry_cpu
+                0x0000000020003008                exc_entry_int
+                0x00000000200030ac                exc_entry_firq
+ .text          0x0000000020003160        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+                0x0000000020003160                gnu_printf_setup
+ .text          0x0000000020003164      0x738 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x00000000200034d8                io_uart_open
+                0x00000000200035a0                io_uart_close
+                0x0000000020003604                io_uart_read
+                0x000000002000365c                io_uart_write
+                0x00000000200036dc                io_uart_ioctl
+ .text          0x000000002000389c      0x228 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x000000002000389c                board_timer_update
+                0x0000000020003918                iotdk_timer_init
+                0x0000000020003950                board_get_hwticks
+                0x0000000020003984                board_get_cur_us
+                0x00000000200039d8                board_delay_ms
+ .text          0x0000000020003ac4       0x10 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+                0x0000000020003ac4                _getchar_r
+                0x0000000020003acc                getchar
+ .text          0x0000000020003ad4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+ .text          0x0000000020003ad4       0x94 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+                0x0000000020003ad4                _getc_r
+                0x0000000020003b20                getc
+ .text          0x0000000020003b68       0x4c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+                0x0000000020003b68                __srget_r
+                0x0000000020003bac                __srget
+ .text          0x0000000020003bb4      0x284 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+                0x0000000020003bb8                _cleanup_r
+                0x0000000020003cfc                __sfmoreglue
+                0x0000000020003d3c                __sfp
+                0x0000000020003df0                _cleanup
+                0x0000000020003e04                __sinit
+                0x0000000020003e10                __sfp_lock_acquire
+                0x0000000020003e14                __sfp_lock_release
+                0x0000000020003e18                __sinit_lock_acquire
+                0x0000000020003e1c                __sinit_lock_release
+                0x0000000020003e20                __fp_lock_all
+                0x0000000020003e2c                __fp_unlock_all
+ .text          0x0000000020003e38       0xfc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+                0x0000000020003e38                _fwalk
+                0x0000000020003eb0                _fwalk_reent
+ .text          0x0000000020003f34      0x6ec /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+                0x0000000020003f34                _malloc_r
+ .text          0x0000000020004620       0x6c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memset-bs.o)
+                0x0000000020004620                memset
+                0x0000000020004674                __strncpy_bzero
+ .text          0x000000002000468c        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+                0x000000002000468c                __malloc_lock
+                0x0000000020004690                __malloc_unlock
+ .text          0x0000000020004694      0x160 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+                0x00000000200046a8                __srefill_r
+ .text          0x00000000200047f4       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+                0x00000000200047f4                _sbrk_r
+ .text          0x0000000020004824       0xb4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+                0x0000000020004824                __sread
+                0x000000002000484c                __seofread
+                0x0000000020004850                __swrite
+                0x00000000200048a0                __sseek
+                0x00000000200048d0                __sclose
+ .text          0x00000000200048d8       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+                0x00000000200048d8                _write_r
+ .text          0x000000002000490c       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+                0x000000002000490c                _close_r
+ .text          0x000000002000493c       0xa4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+                0x000000002000493c                _fclose_r
+                0x00000000200049d8                fclose
+ .text          0x00000000200049e0      0x1d4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+                0x00000000200049e0                __sflush_r
+                0x0000000020004b5c                _fflush_r
+                0x0000000020004b94                fflush
+ .text          0x0000000020004bb4      0x39c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+                0x0000000020004bb4                _malloc_trim_r
+                0x0000000020004c80                _free_r
+ .text          0x0000000020004f50       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+                0x0000000020004f50                _lseek_r
+ .text          0x0000000020004f84      0x128 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+                0x0000000020004f84                __swhatbuf_r
+                0x0000000020005000                __smakebuf_r
+ .text          0x00000000200050ac       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+                0x00000000200050ac                _read_r
+ .text          0x00000000200050e0       0xbc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+                0x00000000200050e0                cleanup_glue
+                0x0000000020005100                _reclaim_reent
+ .text          0x000000002000519c       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+                0x000000002000519c                _fstat_r
+ .text          0x00000000200051cc       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+                0x00000000200051cc                _isatty_r
+ .text          0x00000000200051fc        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+ .text.__divdi3
+                0x00000000200051fc      0x3e0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+                0x00000000200051fc                __divdi3
+ .text          0x00000000200055dc        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+ .text.__udivdi3
+                0x00000000200055dc      0x364 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+                0x00000000200055dc                __udivdi3
+ .text          0x0000000020005940      0x464 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+                0x000000002000598c                _open
+                0x0000000020005990                _close
+                0x0000000020005998                _read
+                0x00000000200059fc                _write
+                0x0000000020005aa4                _lseek
+                0x0000000020005aac                _access
+                0x0000000020005ab0                _isatty
+                0x0000000020005ac0                _unlink
+                0x0000000020005ac4                rename
+                0x0000000020005ac8                _rmdir
+                0x0000000020005acc                _stat
+                0x0000000020005ad0                _lstat
+                0x0000000020005ad4                _fstat
+                0x0000000020005af0                _getcwd
+                0x0000000020005af4                getcwd
+                0x0000000020005af8                _getpid
+                0x0000000020005afc                _exit
+                0x0000000020005b04                _kill
+                0x0000000020005b0c                _getenv
+                0x0000000020005b78                _putenv
+                0x0000000020005c48                clock
+                0x0000000020005c78                _time
+                0x0000000020005ce8                _times
+                0x0000000020005d18                _gettimeofday
+                0x0000000020005d9c                __argc
+                0x0000000020005da0                __argv
+ .text          0x0000000020005da4       0x40 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+                0x0000000020005da4                _sbrk
+ .text          0x0000000020005de4       0xa0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+                0x0000000020005de4                get_build_timedate
+ .text          0x0000000020005e84        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+                0x0000000020005e84                __errno
+ .text          0x0000000020005e88       0xf8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcmp-bs-norm.o)
+                0x0000000020005e88                memcmp
+ .text          0x0000000020005f80      0x85c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+                0x0000000020006250                mktime
+ .text          0x00000000200067dc       0xc4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+                0x00000000200067dc                sscanf
+                0x000000002000683c                _sscanf_r
+ .text          0x00000000200068a0       0x88 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strlen-bs-norm.o)
+                0x00000000200068a0                strlen
+ .text          0x0000000020006928       0xbc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+                0x0000000020006928                strncmp
+ .text          0x00000000200069e4      0xd8c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+                0x00000000200069e4                __ssvfscanf_r
+ .text          0x0000000020007770      0x208 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+                0x0000000020007770                __tzcalc_limits
+ .text          0x0000000020007978        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+                0x0000000020007978                __tz_lock
+                0x000000002000797c                __tz_unlock
+ .text          0x0000000020007980       0x1c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+                0x0000000020007980                _tzset_unlocked
+                0x0000000020007988                tzset
+ .text          0x000000002000799c      0x394 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+                0x000000002000799c                _tzset_unlocked_r
+                0x0000000020007d18                _tzset_r
+ .text          0x0000000020007d30        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+ .text          0x0000000020007d30       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+                0x0000000020007d30                div
+ .text          0x0000000020007d64       0xc0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+                0x0000000020007d64                _findenv_r
+                0x0000000020007e14                _getenv_r
+ .text          0x0000000020007e24        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+                0x0000000020007e24                __gettzinfo
+ .text          0x0000000020007e2c       0x24 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+                0x0000000020007e2c                iswspace
+ .text          0x0000000020007e50       0x90 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+                0x0000000020007e50                _setlocale_r
+                0x0000000020007e98                __locale_mb_cur_max
+                0x0000000020007eb4                __locale_ctype_ptr_l
+                0x0000000020007ebc                __locale_ctype_ptr
+                0x0000000020007ed4                setlocale
+ .text          0x0000000020007ee0       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+                0x0000000020007ee0                __localeconv_l
+                0x0000000020007ee8                _localeconv_r
+                0x0000000020007f00                localeconv
+ .text          0x0000000020007f18       0x10 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+                0x0000000020007f18                malloc
+                0x0000000020007f20                free
+ .text          0x0000000020007f28       0xec /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+                0x0000000020007f28                _mbrtowc_r
+                0x0000000020007f9c                mbrtowc
+ .text          0x0000000020008014       0x64 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+                0x0000000020008014                _mbtowc_r
+                0x0000000020008030                __ascii_mbtowc
+ .text          0x0000000020008078        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+ .text          0x0000000020008078       0xbc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+                0x0000000020008078                __sccl
+ .text          0x0000000020008134        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+                0x0000000020008134                nanf
+ .text          0x000000002000813c       0xc4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+                0x000000002000813c                siscanf
+                0x000000002000819c                _siscanf_r
+ .text          0x0000000020008200       0x98 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+                0x0000000020008200                _sprintf_r
+                0x0000000020008248                sprintf
+ .text          0x0000000020008298       0x90 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcmp.o)
+                0x0000000020008298                strcmp
+ .text          0x0000000020008328       0x7c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcpy-bs.o)
+                0x0000000020008328                strcpy
+ .text          0x00000000200083a4     0x1108 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+                0x00000000200083ec                _strtod_l
+                0x0000000020009320                _strtod_r
+                0x0000000020009334                strtod_l
+                0x0000000020009340                strtod
+                0x000000002000935c                strtof_l
+                0x00000000200093fc                strtof
+ .text          0x00000000200094ac      0x1f4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+                0x0000000020009658                _strtol_r
+                0x0000000020009670                strtol_l
+                0x0000000020009680                strtol
+ .text          0x00000000200096a0      0x284 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+                0x00000000200098dc                _strtoll_r
+                0x00000000200098f4                strtoll_l
+                0x0000000020009904                strtoll
+ .text          0x0000000020009924      0x208 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+                0x0000000020009ae4                _strtoul_r
+                0x0000000020009afc                strtoul_l
+                0x0000000020009b0c                strtoul
+ .text          0x0000000020009b2c      0x2a8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+                0x0000000020009d8c                _strtoull_r
+                0x0000000020009da4                strtoull_l
+                0x0000000020009db4                strtoull
+ .text          0x0000000020009dd4      0xae0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+                0x0000000020009dd4                _sungetc_r
+                0x0000000020009e74                __ssrefill_r
+                0x0000000020009eb4                _sfread_r
+                0x0000000020009f64                __ssvfiscanf_r
+ .text          0x000000002000a8b4     0x17fc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+                0x000000002000a8b4                _svfprintf_r
+ .text          0x000000002000c0b0      0x1a8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+                0x000000002000c0b0                __submore
+                0x000000002000c150                _ungetc_r
+                0x000000002000c24c                ungetc
+ .text          0x000000002000c258       0x44 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+                0x000000002000c258                _wctomb_r
+                0x000000002000c274                __ascii_wctomb
+ .text          0x000000002000c29c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+ .text          0x000000002000c29c     0x12dc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+                0x000000002000c414                _dtoa_r
+ .text          0x000000002000d578        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+ .text          0x000000002000d578        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+                0x000000002000d578                __env_lock
+                0x000000002000d57c                __env_unlock
+ .text          0x000000002000d580      0x6d4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+                0x000000002000d644                __gethex
+ .text          0x000000002000dc54      0x1f4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+                0x000000002000dc54                __match
+                0x000000002000dc88                __hexnan
+ .text          0x000000002000de48       0xc8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+                0x000000002000de48                memchr
+ .text          0x000000002000df10       0x80 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcpy-bs.o)
+                0x000000002000df10                memcpy
+ .text          0x000000002000df90      0xb5c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+                0x000000002000df90                _Balloc
+                0x000000002000dffc                _Bfree
+                0x000000002000e010                __multadd
+                0x000000002000e0d4                __s2b
+                0x000000002000e1a4                __hi0bits
+                0x000000002000e1ec                __lo0bits
+                0x000000002000e270                __i2b
+                0x000000002000e288                __multiply
+                0x000000002000e3fc                __pow5mult
+                0x000000002000e4c8                __lshift
+                0x000000002000e5c4                __mcmp
+                0x000000002000e608                __mdiff
+                0x000000002000e758                __ulp
+                0x000000002000e7ac                __b2d
+                0x000000002000e890                __d2b
+                0x000000002000e970                __ratio
+                0x000000002000e9e8                _mprec_log10
+                0x000000002000ea2c                __copybits
+                0x000000002000ea94                __any_on
+ .text          0x000000002000eaec      0x470 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+                0x000000002000eaec                _realloc_r
+ .text          0x000000002000ef5c      0xd84 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+                0x000000002000ef5c                __ssprint_r
+                0x000000002000f098                _svfiprintf_r
+ .text          0x000000002000fce0       0x88 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+                0x000000002000fce0                _calloc_r
+ .text          0x000000002000fd68      0x100 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+                0x000000002000fd68                memmove
+ .text          0x000000002000fe68        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+ .text.__umoddi3
+                0x000000002000fe68      0x304 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+                0x000000002000fe68                __umoddi3
+ .text          0x000000002001016c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .text._fpadd_parts
+                0x000000002001016c      0x2ec /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .text.__pack_d
+                0x0000000020010458      0x1bc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010458                __pack_d
+ .text.__unpack_d
+                0x0000000020010614       0xb8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010614                __unpack_d
+ .text.__adddf3
+                0x00000000200106cc       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x00000000200106cc                __adddf3
+ .text.__subdf3
+                0x00000000200106fc       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x00000000200106fc                __subdf3
+ .text.__muldf3
+                0x0000000020010734      0x22c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010734                __muldf3
+ .text.__divdf3
+                0x0000000020010960      0x164 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010960                __divdf3
+ .text.__fpcmp_parts_d
+                0x0000000020010ac4       0xc4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010ac4                __fpcmp_parts_d
+ .text.__cmpdf2
+                0x0000000020010b88       0x2c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010b88                __cmpdf2
+ .text.__eqdf2  0x0000000020010bb4       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010bb4                __eqdf2
+ .text.__nedf2  0x0000000020010bf4        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010bf4                __nedf2
+ .text.__gtdf2  0x0000000020010bf8       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010bf8                __gtdf2
+ .text.__gedf2  0x0000000020010c38        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010c38                __gedf2
+ .text.__ltdf2  0x0000000020010c3c        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010c3c                __ltdf2
+ .text.__ledf2  0x0000000020010c40        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010c40                __ledf2
+ .text.__unorddf2
+                0x0000000020010c44       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010c44                __unorddf2
+ .text.__floatsidf
+                0x0000000020010c78       0x7c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010c78                __floatsidf
+ .text.__floatunsidf
+                0x0000000020010cf4       0x64 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010cf4                __floatunsidf
+ .text.__fixdfsi
+                0x0000000020010d58       0x90 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010d58                __fixdfsi
+ .text.__fixunsdfsi
+                0x0000000020010de8       0x60 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010de8                __fixunsdfsi
+ .text.__negdf2
+                0x0000000020010e48       0x24 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010e48                __negdf2
+ .text.__make_dp
+                0x0000000020010e6c       0x1c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010e6c                __make_dp
+ .text.__truncdfsf2
+                0x0000000020010e88       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020010e88                __truncdfsf2
+ .text          0x0000000020010ec0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+ .text._fpadd_parts
+                0x0000000020010ec0      0x170 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+ .text.__pack_f
+                0x0000000020011030      0x104 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011030                __pack_f
+ .text.__unpack_f
+                0x0000000020011134       0x80 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011134                __unpack_f
+ .text.__addsf3
+                0x00000000200111b4       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x00000000200111b4                __addsf3
+ .text.__subsf3
+                0x00000000200111e4       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x00000000200111e4                __subsf3
+ .text.__mulsf3
+                0x000000002001121c      0x12c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x000000002001121c                __mulsf3
+ .text.__divsf3
+                0x0000000020011348       0xec /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011348                __divsf3
+ .text.__fpcmp_parts_f
+                0x0000000020011434       0xa4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011434                __fpcmp_parts_f
+ .text.__cmpsf2
+                0x00000000200114d8       0x2c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x00000000200114d8                __cmpsf2
+ .text.__eqsf2  0x0000000020011504       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011504                __eqsf2
+ .text.__nesf2  0x0000000020011544        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011544                __nesf2
+ .text.__gtsf2  0x0000000020011548       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011548                __gtsf2
+ .text.__gesf2  0x0000000020011588        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011588                __gesf2
+ .text.__ltsf2  0x000000002001158c        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x000000002001158c                __ltsf2
+ .text.__lesf2  0x0000000020011590        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011590                __lesf2
+ .text.__unordsf2
+                0x0000000020011594       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011594                __unordsf2
+ .text.__floatsisf
+                0x00000000200115c8       0x68 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x00000000200115c8                __floatsisf
+ .text.__floatunsisf
+                0x0000000020011630       0x7c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011630                __floatunsisf
+ .text.__fixsfsi
+                0x00000000200116ac       0x70 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x00000000200116ac                __fixsfsi
+ .text.__negsf2
+                0x000000002001171c       0x24 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x000000002001171c                __negsf2
+ .text.__make_fp
+                0x0000000020011740       0x18 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011740                __make_fp
+ .text.__extendsfdf2
+                0x0000000020011758       0x2c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000020011758                __extendsfdf2
+                0x0000000020011784                _e_text = .
+
+.rodata         0x0000000020011784     0x2018
+                0x0000000020011784                _f_rodata = .
+                0x0000000020011784                . = ALIGN (0x4)
+                0x0000000020011784                __CTOR_LIST__ = .
+                0x0000000020011784        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.ctors*))
+                0x0000000020011788        0x4 LONG 0x0
+                0x000000002001178c                __CTOR_END__ = .
+                0x000000002001178c                . = ALIGN (0x4)
+                0x000000002001178c                __init_array_start = .
+ *(SORT_BY_NAME(.init_array*))
+                0x000000002001178c                __init_array_end = .
+                0x000000002001178c                . = ALIGN (0x4)
+                0x000000002001178c                __DTOR_LIST__ = .
+                0x000000002001178c        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.dtors*))
+                0x0000000020011790        0x4 LONG 0x0
+                0x0000000020011794                __DTOR_END__ = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000020011794        0x3 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                          0x4 (鬆開之前的大小)
+ *fill*         0x0000000020011797        0x1 
+ .rodata.str1.4
+                0x0000000020011798        0x5 obj_iotdk_10/gnu_arcem9d/board/board.o
+                                          0x8 (鬆開之前的大小)
+ *fill*         0x000000002001179d        0x3 
+ .rodata        0x00000000200117a0       0x48 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .rodata        0x00000000200117e8       0xa0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .rodata        0x0000000020011888       0x58 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .rodata.str1.4
+                0x00000000200118e0      0x320 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .rodata        0x0000000020011c00       0x5c obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .rodata.str1.4
+                0x0000000020011c5c       0x1f obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                                         0x20 (鬆開之前的大小)
+ *fill*         0x0000000020011c7b        0x1 
+ .rodata.str1.4
+                0x0000000020011c7c      0x691 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                        0x698 (鬆開之前的大小)
+ *fill*         0x000000002001230d        0x3 
+ .rodata        0x0000000020012310      0x1e8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .rodata        0x00000000200124f8       0xb8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .rodata        0x00000000200125b0        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+                0x00000000200125b0                _global_impure_ptr
+ .rodata.str1.4
+                0x00000000200125b4       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .rodata.str1.4
+                0x00000000200125d4       0x21 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+                                         0x30 (鬆開之前的大小)
+ .rodata        0x00000000200125f5       0x30 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+ *fill*         0x0000000020012625        0x3 
+ .rodata        0x0000000020012628       0x60 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+ .rodata.str1.4
+                0x0000000020012688        0x5 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+                                          0x8 (鬆開之前的大小)
+ *fill*         0x000000002001268d        0x3 
+ .rodata        0x0000000020012690      0x48c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+ .rodata.str1.4
+                0x0000000020012b1c       0x53 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+                                         0x54 (鬆開之前的大小)
+ .rodata.str1.4
+                0x0000000020012b6f        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+ *fill*         0x0000000020012b6f        0x1 
+ .rodata.str1.4
+                0x0000000020012b70        0xe /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+                                         0x14 (鬆開之前的大小)
+ .rodata.str1.4
+                0x0000000020012b7e        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+ *fill*         0x0000000020012b7e        0x2 
+ .rodata        0x0000000020012b80       0x60 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+                0x0000000020012b80                __month_lengths
+ .rodata.str1.4
+                0x0000000020012be0        0xf /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+                                         0x10 (鬆開之前的大小)
+ *fill*         0x0000000020012bef        0x1 
+ .rodata        0x0000000020012bf0      0x1b4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+ .rodata        0x0000000020012da4      0x340 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+ .rodata.str1.4
+                0x00000000200130e4       0x42 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+                                         0x44 (鬆開之前的大小)
+ *fill*         0x0000000020013126        0x2 
+ .rodata        0x0000000020013128      0x184 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+ .rodata        0x00000000200132ac      0x104 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+                0x00000000200132ac                _ctype_
+ .rodata.str1.4
+                0x00000000200133b0       0x10 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+                                         0x14 (鬆開之前的大小)
+ .rodata        0x00000000200133c0       0x10 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+ .rodata        0x00000000200133d0      0x100 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+                0x00000000200133d0                __hexdig
+ .rodata        0x00000000200134d0      0x124 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+                0x00000000200134dc                __mprec_tinytens
+                0x0000000020013504                __mprec_bigtens
+                0x000000002001352c                __mprec_tens
+ .rodata.str1.4
+                0x00000000200135f4       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .rodata        0x00000000200135f4      0x184 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .rodata.__thenan_df
+                0x0000000020013778       0x14 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+                0x0000000020013778                __thenan_df
+ .rodata.__thenan_sf
+                0x000000002001378c       0x10 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x000000002001378c                __thenan_sf
+                0x000000002001379c                _e_rodata = .
+
+.data           0x0000000080000000      0xe20 載入位址 0x000000002001379c
+                0x0000000080000000                _f_data = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000080000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .data          0x0000000080000000       0x1c obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+                0x0000000080000000                uart_context0
+ .data          0x000000008000001c        0x8 obj_iotdk_10/gnu_arcem9d/board/board.o
+                0x000000008000001c                s_main_args
+ .data          0x0000000080000024        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .data          0x0000000080000024        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .data          0x0000000080000024        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .data          0x0000000080000024        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .data          0x0000000080000024        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .data          0x0000000080000024        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x0000000080000024                sysconf_reg_ptr
+ .data          0x0000000080000028        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .data          0x0000000080000028        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .data          0x0000000080000028      0x1bc obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x0000000080000028                exc_int_handler_table
+ .data          0x00000000800001e4        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .data          0x00000000800001e4        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .data          0x00000000800001e4        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .data          0x00000000800001e4        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .data          0x00000000800001e4      0x1a4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .data          0x0000000080000388        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .data          0x0000000080000388        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+ .data          0x0000000080000388      0x424 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+ .data          0x00000000800007ac        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+ .data          0x00000000800007ac        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+ .data          0x00000000800007ac        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+ .data          0x00000000800007ac        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+ .data          0x00000000800007ac      0x408 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+                0x00000000800007ac                __malloc_av_
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memset-bs.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+ .data          0x0000000080000bb4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+ .data          0x0000000080000bb4       0x84 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+                0x0000000080000bb4                _environ
+ .data          0x0000000080000c38        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .data          0x0000000080000c38        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcmp-bs-norm.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strlen-bs-norm.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+ .data          0x0000000080000c38        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+ .data          0x0000000080000c38        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+                0x0000000080000c38                _tzname
+ .data          0x0000000080000c40        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+ .data          0x0000000080000c40        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+ .data          0x0000000080000c40       0x48 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+ .data          0x0000000080000c88        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+ .data          0x0000000080000c88      0x16c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+                0x0000000080000c88                __global_locale
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcmp.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcpy-bs.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcpy-bs.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .data          0x0000000080000df4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+                0x0000000080000df4                _f_sdata = .
+                0x0000000080000df4                __SDATA_BEGIN__ = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000080000df4        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+                0x0000000080000df4                _impure_ptr
+ .sdata         0x0000000080000df8        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+                0x0000000080000df8                __malloc_sbrk_base
+                0x0000000080000dfc                __malloc_trim_threshold
+ .sdata         0x0000000080000e00        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+                0x0000000080000e00                environ
+                [!provide]                        PROVIDE (__sbss_start = .)
+                [!provide]                        PROVIDE (___sbss_start = .)
+                0x0000000080000e04                _f_sbss = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000080000e04        0xc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+                0x0000000080000e04                __malloc_max_total_mem
+                0x0000000080000e08                __malloc_max_sbrked_mem
+                0x0000000080000e0c                __malloc_top_pad
+ .sbss          0x0000000080000e10        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+                0x0000000080000e10                errno
+ .sbss          0x0000000080000e14        0x8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+                0x0000000080000e14                _timezone
+                0x0000000080000e18                _daylight
+ .sbss          0x0000000080000e1c        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+                0x0000000080000e1c                _PathLocale
+ *(.scommon)
+                0x0000000080000e20                _e_sbss = .
+                [!provide]                        PROVIDE (__sbss_end = .)
+                [!provide]                        PROVIDE (___sbss_end = .)
+                0x0000000080000e20                _e_sdata = .
+                0x0000000080000e20                _e_data = .
+
+.bss            0x0000000080000e20      0x130 載入位址 0x00000000200145c0
+                0x0000000080000e20                _f_bss = .
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000080000e20        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .bss           0x0000000080000e20        0x0 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .bss           0x0000000080000e20        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .bss           0x0000000080000e20        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x0000000080000e20                __dso_handle
+ .bss           0x0000000080000e24        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .bss           0x0000000080000e24        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .bss           0x0000000080000e24        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .bss           0x0000000080000e24        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .bss           0x0000000080000e24        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .bss           0x0000000080000e24        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .bss           0x0000000080000e2c        0x4 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .bss           0x0000000080000e30        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .bss           0x0000000080000e30       0x10 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .bss           0x0000000080000e40        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .bss           0x0000000080000e40        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .bss           0x0000000080000e40        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .bss           0x0000000080000e40       0x10 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .bss           0x0000000080000e50       0x14 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x0000000080000e58                gl_iotdk_ms_cnt
+                0x0000000080000e5c                gl_iotdk_sys_hz_cnt
+ .bss           0x0000000080000e64        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+ .bss           0x0000000080000e64        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+ .bss           0x0000000080000e64        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+ .bss           0x0000000080000e64        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+ .bss           0x0000000080000e64        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+ .bss           0x0000000080000e64        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+ .bss           0x0000000080000e64       0x28 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+                0x0000000080000e64                __malloc_current_mallinfo
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memset-bs.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+ .bss           0x0000000080000e8c        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+ .bss           0x0000000080000e8c       0x34 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+                0x0000000080000ebc                stdio_uart_inited
+ .bss           0x0000000080000ec0        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .bss           0x0000000080000ec4        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcmp-bs-norm.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strlen-bs-norm.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+ .bss           0x0000000080000ec4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+ .bss           0x0000000080000ec4       0x1c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcpy-bs.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000080000ee0        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+ .bss           0x0000000080000ee0        0x4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcpy-bs.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .bss           0x0000000080000ee4        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+ *(COMMON)
+ COMMON         0x0000000080000ee4       0x5c obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+                0x0000000080000ee4                dfss_uart_0
+ COMMON         0x0000000080000f40        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x0000000080000f40                xfunc_in
+                0x0000000080000f44                xfunc_out
+ COMMON         0x0000000080000f48        0x4 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x0000000080000f48                exc_nest_count
+ COMMON         0x0000000080000f4c        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+                0x0000000080000f4c                stdio_uart_obj
+                0x0000000080000f50                _e_bss = .
+
+.stack          0x0000000080000f50      0x800 載入位址 0x00000000200145bc
+                0x0000000080000f50                . = ALIGN (0x4)
+                0x0000000080000f50                _f_stack = .
+                0x0000000080001750                . = (. + 0x800)
+ *fill*         0x0000000080000f50      0x800 
+                0x0000000080001750                _e_stack = .
+
+.heap           0x0000000080001750     0x2000 載入位址 0x00000000200145bc
+                0x0000000080001750                . = ALIGN (0x4)
+                0x0000000080001750                __start_heap = .
+                0x0000000080001750                _f_heap = .
+                0x0000000080003750                . = (. + 0x2000)
+ *fill*         0x0000000080001750     0x2000 
+                0x0000000080003750                _e_heap = .
+                0x0000000080003750                __end_heap = .
+                0x0000000020000800                _load_addr_text = LOADADDR (.text)
+                0x0000000020011784                _load_addr_rodata = LOADADDR (.rodata)
+                0x000000002001379c                _load_addr_data = LOADADDR (.data)
+LOAD obj_iotdk_10/gnu_arcem9d/application/./main.o
+LOAD obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+LOAD obj_iotdk_10/gnu_arcem9d/board/board.o
+LOAD obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+LOAD obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+START GROUP
+LOAD obj_iotdk_10/gnu_arcem9d/libembarc.a
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libm.a
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a
+END GROUP
+START GROUP
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a
+LOAD /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libnosys.a
+END GROUP
+OUTPUT(obj_iotdk_10/gnu_arcem9d/serialTest_gnu_arcem9d.elf elf32-littlearc)
+
+.debug_info     0x0000000000000000     0xe8f9
+ .debug_info    0x0000000000000000      0xfff obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_info    0x0000000000000fff      0x8ba obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_info    0x00000000000018b9      0xf83 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_info    0x000000000000283c      0x1f8 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_info    0x0000000000002a34       0x26 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_info    0x0000000000002a5a      0xe9e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_info    0x00000000000038f8      0x674 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_info    0x0000000000003f6c      0xa7b obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_info    0x00000000000049e7      0x865 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_info    0x000000000000524c     0x125c obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_info    0x00000000000064a8      0x9f0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_info    0x0000000000006e98     0x1735 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_info    0x00000000000085cd      0x916 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_info    0x0000000000008ee3      0x3fc obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_info    0x00000000000092df       0x26 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_info    0x0000000000009305      0x9d2 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .debug_info    0x0000000000009cd7     0x102f obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_info    0x000000000000ad06      0x86c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_info    0x000000000000b572     0x1d73 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .debug_info    0x000000000000d2e5      0xa20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .debug_info    0x000000000000dd05      0xbf4 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+
+.debug_abbrev   0x0000000000000000     0x38f9
+ .debug_abbrev  0x0000000000000000      0x33d obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_abbrev  0x000000000000033d      0x25d obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_abbrev  0x000000000000059a      0x34b obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_abbrev  0x00000000000008e5      0x16e obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_abbrev  0x0000000000000a53       0x14 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_abbrev  0x0000000000000a67      0x3d4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_abbrev  0x0000000000000e3b      0x1fb obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_abbrev  0x0000000000001036      0x313 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_abbrev  0x0000000000001349      0x2e1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_abbrev  0x000000000000162a      0x368 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_abbrev  0x0000000000001992      0x34b obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_abbrev  0x0000000000001cdd      0x447 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_abbrev  0x0000000000002124      0x301 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_abbrev  0x0000000000002425      0x1c4 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_abbrev  0x00000000000025e9       0x14 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_abbrev  0x00000000000025fd      0x1cf obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .debug_abbrev  0x00000000000027cc      0x36e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_abbrev  0x0000000000002b3a      0x347 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_abbrev  0x0000000000002e81      0x5c8 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .debug_abbrev  0x0000000000003449      0x22f obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .debug_abbrev  0x0000000000003678      0x281 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+
+.debug_loc      0x0000000000000000     0x5dc2
+ .debug_loc     0x0000000000000000       0xe9 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_loc     0x00000000000000e9      0x23d obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_loc     0x0000000000000326       0x40 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_loc     0x0000000000000366       0xa3 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_loc     0x0000000000000409      0xeea obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_loc     0x00000000000012f3      0x9ba obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_loc     0x0000000000001cad      0x2d2 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_loc     0x0000000000001f7f       0xdf obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_loc     0x000000000000205e     0x1347 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_loc     0x00000000000033a5      0xc61 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_loc     0x0000000000004006      0x56a obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_loc     0x0000000000004570      0x633 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_loc     0x0000000000004ba3      0x833 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_loc     0x00000000000053d6      0x14d obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_loc     0x0000000000005523      0x7a9 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .debug_loc     0x0000000000005ccc       0x3a obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .debug_loc     0x0000000000005d06       0xbc obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+
+.debug_aranges  0x0000000000000000      0x2a8
+ .debug_aranges
+                0x0000000000000000       0x28 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_aranges
+                0x0000000000000048       0x20 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_aranges
+                0x0000000000000068       0x20 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_aranges
+                0x0000000000000088       0x20 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_aranges
+                0x00000000000000a8       0x20 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_aranges
+                0x00000000000000c8       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_aranges
+                0x00000000000000e8       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_aranges
+                0x0000000000000108       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_aranges
+                0x0000000000000128       0x20 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_aranges
+                0x0000000000000148       0x20 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_aranges
+                0x0000000000000168       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_aranges
+                0x0000000000000188       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_aranges
+                0x00000000000001a8       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_aranges
+                0x00000000000001c8       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_aranges
+                0x00000000000001e8       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .debug_aranges
+                0x0000000000000208       0x20 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_aranges
+                0x0000000000000228       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_aranges
+                0x0000000000000248       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .debug_aranges
+                0x0000000000000268       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .debug_aranges
+                0x0000000000000288       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+
+.debug_ranges   0x0000000000000000      0x6e0
+ .debug_ranges  0x0000000000000000       0x68 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_ranges  0x0000000000000068       0x18 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_ranges  0x0000000000000080       0x18 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_ranges  0x0000000000000098       0x48 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_ranges  0x00000000000000e0       0xb0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_ranges  0x0000000000000190       0x18 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_ranges  0x00000000000001a8       0x18 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_ranges  0x00000000000001c0      0x1c0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_ranges  0x0000000000000380      0x1b8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_ranges  0x0000000000000538       0x48 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_ranges  0x0000000000000580       0xb0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_ranges  0x0000000000000630       0x40 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_ranges  0x0000000000000670       0x70 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+
+.debug_line     0x0000000000000000     0x5f33
+ .debug_line    0x0000000000000000      0x3a0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_line    0x00000000000003a0      0x2d0 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_line    0x0000000000000670      0x34f obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_line    0x00000000000009bf       0xec obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_line    0x0000000000000aab       0xc8 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_line    0x0000000000000b73      0x7f9 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_line    0x000000000000136c      0x232 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_line    0x000000000000159e      0x5a1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_line    0x0000000000001b3f      0x651 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_line    0x0000000000002190      0x3a9 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_line    0x0000000000002539      0xa99 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_line    0x0000000000002fd2      0x8e1 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_line    0x00000000000038b3      0x739 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_line    0x0000000000003fec      0x3af obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_line    0x000000000000439b       0xaa obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_line    0x0000000000004445      0x1f4 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .debug_line    0x0000000000004639      0x8fe obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_line    0x0000000000004f37      0x384 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_line    0x00000000000052bb      0x7d9 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .debug_line    0x0000000000005a94      0x1d8 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .debug_line    0x0000000000005c6c      0x2c7 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+
+.debug_str      0x0000000000000000     0x22e5
+ .debug_str     0x0000000000000000      0x925 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                        0xa1e (鬆開之前的大小)
+ .debug_str     0x0000000000000925      0x28b obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+                                        0x603 (鬆開之前的大小)
+ .debug_str     0x0000000000000bb0       0x89 obj_iotdk_10/gnu_arcem9d/board/board.o
+                                        0xa34 (鬆開之前的大小)
+ .debug_str     0x0000000000000c39      0x12f obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                                        0x226 (鬆開之前的大小)
+ .debug_str     0x0000000000000d68       0x1d obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+                                         0x54 (鬆開之前的大小)
+ .debug_str     0x0000000000000d85      0x11a obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                                        0x629 (鬆開之前的大小)
+ .debug_str     0x0000000000000e9f      0x147 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                                        0x6e2 (鬆開之前的大小)
+ .debug_str     0x0000000000000fe6      0x285 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                                        0x903 (鬆開之前的大小)
+ .debug_str     0x000000000000126b      0x1f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                                        0x56f (鬆開之前的大小)
+ .debug_str     0x000000000000145b       0xb9 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                                        0xb86 (鬆開之前的大小)
+ .debug_str     0x0000000000001514       0xaa obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                                        0x20a (鬆開之前的大小)
+ .debug_str     0x00000000000015be      0x3b2 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                        0x67b (鬆開之前的大小)
+ .debug_str     0x0000000000001970      0x1d1 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                                        0x43c (鬆開之前的大小)
+ .debug_str     0x0000000000001b41       0x5c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                                        0x20f (鬆開之前的大小)
+ .debug_str     0x0000000000001b9d        0xe obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                                         0x54 (鬆開之前的大小)
+ .debug_str     0x0000000000001bab       0x24 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+                                        0x5fd (鬆開之前的大小)
+ .debug_str     0x0000000000001bcf      0x222 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                                        0x896 (鬆開之前的大小)
+ .debug_str     0x0000000000001df1       0xfe obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                                        0x6f6 (鬆開之前的大小)
+ .debug_str     0x0000000000001eef      0x33d obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+                                        0xf03 (鬆開之前的大小)
+ .debug_str     0x000000000000222c       0x67 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+                                        0x5ff (鬆開之前的大小)
+ .debug_str     0x0000000000002293       0x52 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+                                        0x66c (鬆開之前的大小)
+
+.comment        0x0000000000000000       0x42
+ .comment       0x0000000000000000       0x42 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                         0x43 (鬆開之前的大小)
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .comment       0x0000000000000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+
+.ARC.attributes
+                0x0000000000000000       0x45
+ .ARC.attributes
+                0x0000000000000000       0x29 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .ARC.attributes
+                0x0000000000000029       0x29 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .ARC.attributes
+                0x0000000000000052       0x29 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .ARC.attributes
+                0x000000000000007b       0x2c obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .ARC.attributes
+                0x00000000000000a7       0x25 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .ARC.attributes
+                0x00000000000000cc       0x34 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .ARC.attributes
+                0x0000000000000100       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .ARC.attributes
+                0x0000000000000129       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .ARC.attributes
+                0x0000000000000152       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .ARC.attributes
+                0x000000000000017e       0x29 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .ARC.attributes
+                0x00000000000001a7       0x33 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .ARC.attributes
+                0x00000000000001da       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .ARC.attributes
+                0x0000000000000206       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .ARC.attributes
+                0x0000000000000232       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .ARC.attributes
+                0x000000000000025e       0x28 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .ARC.attributes
+                0x0000000000000286       0x29 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .ARC.attributes
+                0x00000000000002af       0x2e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .ARC.attributes
+                0x00000000000002dd       0x2e obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .ARC.attributes
+                0x000000000000030b       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+ .ARC.attributes
+                0x0000000000000336       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-impure.o)
+ .ARC.attributes
+                0x0000000000000361       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+ .ARC.attributes
+                0x000000000000038c       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+ .ARC.attributes
+                0x00000000000003b7       0x2d /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+ .ARC.attributes
+                0x00000000000003e4       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+ .ARC.attributes
+                0x000000000000040f       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+ .ARC.attributes
+                0x000000000000043d       0x28 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memset-bs.o)
+ .ARC.attributes
+                0x0000000000000465       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+ .ARC.attributes
+                0x0000000000000490       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+ .ARC.attributes
+                0x00000000000004bb       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+ .ARC.attributes
+                0x00000000000004e6       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+ .ARC.attributes
+                0x0000000000000511       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+ .ARC.attributes
+                0x000000000000053c       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+ .ARC.attributes
+                0x0000000000000567       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+ .ARC.attributes
+                0x0000000000000592       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+ .ARC.attributes
+                0x00000000000005bd       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+ .ARC.attributes
+                0x00000000000005eb       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+ .ARC.attributes
+                0x0000000000000616       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+ .ARC.attributes
+                0x0000000000000641       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+ .ARC.attributes
+                0x000000000000066c       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+ .ARC.attributes
+                0x0000000000000697       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+ .ARC.attributes
+                0x00000000000006c2       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+ .ARC.attributes
+                0x00000000000006ed       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+ .ARC.attributes
+                0x000000000000072d       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+ .ARC.attributes
+                0x000000000000076d       0x2e obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .ARC.attributes
+                0x000000000000079b       0x29 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .ARC.attributes
+                0x00000000000007c4       0x29 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+ .ARC.attributes
+                0x00000000000007ed       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+ .ARC.attributes
+                0x0000000000000818       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcmp-bs-norm.o)
+ .ARC.attributes
+                0x0000000000000848       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+ .ARC.attributes
+                0x0000000000000878       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+ .ARC.attributes
+                0x00000000000008a3       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strlen-bs-norm.o)
+ .ARC.attributes
+                0x00000000000008d3       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+ .ARC.attributes
+                0x00000000000008fe       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+ .ARC.attributes
+                0x000000000000092e       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+ .ARC.attributes
+                0x000000000000095e       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+ .ARC.attributes
+                0x0000000000000989       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+ .ARC.attributes
+                0x00000000000009b4       0x2d /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+ .ARC.attributes
+                0x00000000000009e1       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzvars.o)
+ .ARC.attributes
+                0x0000000000000a0c       0x33 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+ .ARC.attributes
+                0x0000000000000a3f       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+ .ARC.attributes
+                0x0000000000000a6d       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+ .ARC.attributes
+                0x0000000000000a98       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+ .ARC.attributes
+                0x0000000000000ac3       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+ .ARC.attributes
+                0x0000000000000aee       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+ .ARC.attributes
+                0x0000000000000b19       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+ .ARC.attributes
+                0x0000000000000b44       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+ .ARC.attributes
+                0x0000000000000b6f       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+ .ARC.attributes
+                0x0000000000000b9a       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-month_lengths.o)
+ .ARC.attributes
+                0x0000000000000bc5       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+ .ARC.attributes
+                0x0000000000000bf0       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+ .ARC.attributes
+                0x0000000000000c1b       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+ .ARC.attributes
+                0x0000000000000c46       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+ .ARC.attributes
+                0x0000000000000c71       0x25 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcmp.o)
+ .ARC.attributes
+                0x0000000000000c96       0x28 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strcpy-bs.o)
+ .ARC.attributes
+                0x0000000000000cbe       0x35 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+ .ARC.attributes
+                0x0000000000000cf3       0x35 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+ .ARC.attributes
+                0x0000000000000d28       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+ .ARC.attributes
+                0x0000000000000d58       0x35 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+ .ARC.attributes
+                0x0000000000000d8d       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+ .ARC.attributes
+                0x0000000000000dbd       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+ .ARC.attributes
+                0x0000000000000df5       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+ .ARC.attributes
+                0x0000000000000e25       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+ .ARC.attributes
+                0x0000000000000e53       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+ .ARC.attributes
+                0x0000000000000e7e       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ctype_.o)
+ .ARC.attributes
+                0x0000000000000ea9       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+ .ARC.attributes
+                0x0000000000000ee1       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-environ.o)
+ .ARC.attributes
+                0x0000000000000f0c       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+ .ARC.attributes
+                0x0000000000000f37       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+ .ARC.attributes
+                0x0000000000000f67       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+ .ARC.attributes
+                0x0000000000000f95       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+ .ARC.attributes
+                0x0000000000000fc3       0x28 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memcpy-bs.o)
+ .ARC.attributes
+                0x0000000000000feb       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+ .ARC.attributes
+                0x000000000000101b       0x2b /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+ .ARC.attributes
+                0x0000000000001046       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .ARC.attributes
+                0x0000000000001076       0x2d /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+ .ARC.attributes
+                0x00000000000010a3       0x2e /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+ .ARC.attributes
+                0x00000000000010d1       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+ .ARC.attributes
+                0x0000000000001111       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .ARC.attributes
+                0x0000000000001149       0x38 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
+
+.debug_frame    0x0000000000000000     0x3c08
+ .debug_frame   0x0000000000000000       0x4c obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_frame   0x000000000000004c       0xc0 obj_iotdk_10/gnu_arcem9d/application/./uart_obj.o
+ .debug_frame   0x000000000000010c       0x28 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_frame   0x0000000000000134       0xbc obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_frame   0x00000000000001f0      0x18c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_frame   0x000000000000037c       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_frame   0x00000000000003a8       0x80 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_frame   0x0000000000000428      0x1c0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_frame   0x00000000000005e8       0x98 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_frame   0x0000000000000680      0x2b4 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_frame   0x0000000000000934      0x208 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_frame   0x0000000000000b3c      0x1a4 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_frame   0x0000000000000ce0       0x7c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_frame   0x0000000000000d5c       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_misc.o
+ .debug_frame   0x0000000000000d7c      0x1b8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_frame   0x0000000000000f34      0x120 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_frame   0x0000000000001054       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getchar.o)
+ .debug_frame   0x0000000000001084       0x88 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getc.o)
+ .debug_frame   0x000000000000110c       0x50 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-rget.o)
+ .debug_frame   0x000000000000115c      0x188 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000012e4       0xb0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000001394       0x80 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000001414       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001444       0x7c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-refill.o)
+ .debug_frame   0x00000000000014c0       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000001500       0xd0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-stdio.o)
+ .debug_frame   0x00000000000015d0       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000001610       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-closer.o)
+ .debug_frame   0x0000000000001650       0x6c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fclose.o)
+ .debug_frame   0x00000000000016bc       0xb8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000001774       0xac /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-freer.o)
+ .debug_frame   0x0000000000001820       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000001860       0xcc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-makebuf.o)
+ .debug_frame   0x000000000000192c       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-readr.o)
+ .debug_frame   0x000000000000196c       0x84 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reent.o)
+ .debug_frame   0x00000000000019f0       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000001a30       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000001a70       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000001a90       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000001ab0      0x34c obj_iotdk_10/gnu_arcem9d/library/clib/embARC_syscalls.o
+ .debug_frame   0x0000000000001dfc       0x2c obj_iotdk_10/gnu_arcem9d/library/clib/embARC_sbrk.o
+ .debug_frame   0x0000000000001e28       0x64 obj_iotdk_10/gnu_arcem9d/library/clib/embARC_target.o
+ .debug_frame   0x0000000000001e8c       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-errno.o)
+ .debug_frame   0x0000000000001eac       0xc8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mktime.o)
+ .debug_frame   0x0000000000001f74       0x70 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sscanf.o)
+ .debug_frame   0x0000000000001fe4       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strncmp.o)
+ .debug_frame   0x0000000000002004       0xac /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfscanf.o)
+ .debug_frame   0x00000000000020b0       0x50 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzcalc_limits.o)
+ .debug_frame   0x0000000000002100       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzlock.o)
+ .debug_frame   0x0000000000002130       0x3c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset.o)
+ .debug_frame   0x000000000000216c       0x98 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-tzset_r.o)
+ .debug_frame   0x0000000000002204       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-div.o)
+ .debug_frame   0x0000000000002224       0x8c /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-getenv_r.o)
+ .debug_frame   0x00000000000022b0       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gettzinfo.o)
+ .debug_frame   0x00000000000022d0       0x34 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-iswspace.o)
+ .debug_frame   0x0000000000002304       0x78 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-locale.o)
+ .debug_frame   0x000000000000237c       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-localeconv.o)
+ .debug_frame   0x00000000000023bc       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000023ec       0x88 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbrtowc.o)
+ .debug_frame   0x0000000000002474       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00000000000024b4       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sccl.o)
+ .debug_frame   0x00000000000024d4       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sf_nan.o)
+ .debug_frame   0x00000000000024f4       0x70 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-siscanf.o)
+ .debug_frame   0x0000000000002564       0x54 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-sprintf.o)
+ .debug_frame   0x00000000000025b8      0x1c0 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtod.o)
+ .debug_frame   0x0000000000002778       0xa8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000002820       0xdc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoll.o)
+ .debug_frame   0x00000000000028fc       0xa8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoul.o)
+ .debug_frame   0x00000000000029a4       0xd4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-strtoull.o)
+ .debug_frame   0x0000000000002a78      0x190 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiscanf.o)
+ .debug_frame   0x0000000000002c08       0xac /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x0000000000002cb4       0xc8 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-ungetc.o)
+ .debug_frame   0x0000000000002d7c       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x0000000000002dac      0x100 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x0000000000002eac       0x30 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-envlock.o)
+ .debug_frame   0x0000000000002edc       0xbc /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-gethex.o)
+ .debug_frame   0x0000000000002f98       0x70 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-gdtoa-hexnan.o)
+ .debug_frame   0x0000000000003008       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memchr.o)
+ .debug_frame   0x0000000000003028      0x394 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-mprec.o)
+ .debug_frame   0x00000000000033bc       0xac /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000003468      0x118 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x0000000000003580       0x40 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-callocr.o)
+ .debug_frame   0x00000000000035c0       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/../../../../arc-elf32/lib/em4_fpuda/libc.a(lib_a-memmove.o)
+ .debug_frame   0x00000000000035e0       0x20 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(_umoddi3.o)
+ .debug_frame   0x0000000000003600      0x354 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(dp-bit.o)
+ .debug_frame   0x0000000000003954      0x2b4 /home/john/arc_gnu_2018.09_ide_linux_install/bin/../lib/gcc/arc-elf32/8.2.1/em4_fpuda/libgcc.a(fp-bit.o)
